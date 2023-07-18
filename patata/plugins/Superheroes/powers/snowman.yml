@@ -1,0 +1,25 @@
+Snowman:
+  colouredName: <bold><white>Snowman
+  description: You create snow trails!
+  skills:
+    placeSnowBehindYou:
+      skill: WALKER
+      blocksToPlace:
+      - SNOW
+      blocksToReplace:
+      - AIR
+      - CAVE_AIR
+      - VOID_AIR
+      isSneaking: false
+      blocksDrop: true
+      shouldRevert: false
+      revertsAfter: 10
+      aboveFloor: true
+      canPlaceFloating: false
+    infiniteSnowballs:
+      skill: THROWER
+      item:
+        type: SNOWBALL
+      ammoCost: 0
+      projectile: SNOWBALL
+      velocity: 1.4

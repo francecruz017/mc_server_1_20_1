@@ -1,0 +1,35 @@
+Spartan:
+  colouredName: <bold><yellow>Spartan
+  description: Your shield cannot be cancelled.
+  skills:
+    shield:
+      skill: SHIELD
+      cooldown: 0
+    shieldItem:
+      skill: GIVEITEM
+      canStore: false
+      canDrop: true
+      canLoseOnDeath: false
+      canDropOnDeath: false
+      loseItemOnHeroLoss: true
+      item:
+        type: SHIELD
+        amount: 1
+        specialID: 2
+        metadata:
+          displayName: <bold><yellow>Spartan's </yellow></bold><bold><gray>Shield
+          isUnbreakable: true
+          lore:
+          - <italic><white>This shield shall not be knocked down!
+    throwableArrows:
+      skill: THROWER
+      item:
+        type: ARROW
+      ammoCost: 1
+      projectile: ARROW
+      canPickUp: true # if this is not an arrow, this field does nothing. (Tridents count as arrows)
+      cooldown: 1
+      cooldownMessage: Your spear has <currentcooldown> seconds remaining before it
+        can be used again!
+      velocity: 1.4
+      damage: 3 # Similarly to pickUp, it only works on arrows.

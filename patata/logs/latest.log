@@ -1,0 +1,812 @@
+[18:31:41] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:31:42] [ServerMain/INFO]: Loaded 7 recipes
+[18:31:43] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[18:31:43] [Server thread/INFO]: Loading properties
+[18:31:43] [Server thread/INFO]: This server is running Paper version git-Paper-80 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: de3f149)
+[18:31:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:31:43] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:31:43] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[18:31:43] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[18:31:43] [Server thread/INFO]: Default game type: SURVIVAL
+[18:31:43] [Server thread/INFO]: Generating keypair
+[18:31:43] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:31:43] [Server thread/INFO]: Using default channel type
+[18:31:43] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[18:31:43] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[18:31:44] [Server thread/INFO]: [VillagerTradeSettings] Loading server plugin VillagerTradeSettings v1.0
+[18:31:44] [Server thread/INFO]: [Superheroes] Loading server plugin Superheroes v3.13.0
+[18:31:44] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v14.2.12
+[18:31:44] [Server thread/INFO]: [Quests] Loading server plugin Quests v4.8.3-b423
+[18:31:44] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.3.1
+[18:31:44] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.98
+[18:31:44] [Server thread/INFO]: [Bosses] Loading server plugin Bosses v1.0-SNAPSHOT
+[18:31:44] [Server thread/INFO]: [AntiCreeper] Loading server plugin AntiCreeper v2.6
+[18:31:44] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:31:44] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.3.1
+[18:31:44] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.98
+[18:31:45] [Server thread/INFO]:         __    
+[18:31:45] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.98
+[18:31:45] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[18:31:45] [Server thread/INFO]: 
+[18:31:45] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[18:31:45] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[18:31:46] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[18:31:46] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[18:31:46] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1396ms)
+[18:31:46] [Server thread/INFO]: Preparing level "world"
+[18:31:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:31:46] [Server thread/INFO]: Time elapsed: 117 ms
+[18:31:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:31:46] [Server thread/INFO]: Time elapsed: 24 ms
+[18:31:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:31:46] [Server thread/INFO]: Time elapsed: 27 ms
+[18:31:46] [Server thread/INFO]: [VillagerTradeSettings] Enabling VillagerTradeSettings v1.0
+[18:31:46] [Server thread/INFO]: [VillagerTradeSettings] Plugin loaded in 27 ms!
+[18:31:46] [Server thread/INFO]: [Superheroes] Enabling Superheroes v3.13.0
+[18:31:47] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.12
+[18:31:47] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_20_R1, using MappingSpigotSkinRefresher.
+[18:31:47] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[18:31:47] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[18:31:47] [Server thread/INFO]: [Quests] Enabling Quests v4.8.3-b423
+[18:31:47] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[18:31:50] [Server thread/INFO]: [Quests] Loaded language en-US. Translations via Crowdin
+[18:31:50] [Server thread/INFO]: [Quests] Loading storage implementation: YAML
+[18:31:50] [Server thread/INFO]: [Bosses] Enabling Bosses v1.0-SNAPSHOT
+[18:31:50] [Server thread/INFO]: [AntiCreeper] Enabling AntiCreeper v2.6
+[18:31:50] [Server thread/INFO]: [AntiCreeper] Enabled!
+[18:31:50] [Server thread/WARN]: [Superheroes] You have entered an invalid potion effect type! Floral.skills.white_tulip.type . Defaulting to REGENERATION
+[18:31:51] [Server thread/INFO]: Running delayed init tasks
+[18:31:51] [Server thread/INFO]: [VillagerTradeSettings] Loaded 28 trade items!
+[18:31:51] [Server thread/INFO]: Done (7.768s)! For help, type "help"
+[18:31:51] [Server thread/INFO]: Timings Reset
+[18:31:51] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:31:51] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[18:31:51] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[18:31:51] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
+[18:31:51] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[18:31:51] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[18:31:51] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:31:51] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     Current version: 14.2.12
+[18:31:51] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
+[18:31:51] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:31:51] [Server thread/INFO]: [Quests] Loaded 4 Quest(s), 7 Action(s), 1 Condition(s) and 811 Phrase(s)
+[18:33:15] [User Authenticator #0/INFO]: UUID of player P0tatoDan is c16cdaaf-82d7-44a7-874c-925c2b12ed4d
+[18:33:15] [Server thread/INFO]: P0tatoDan joined the game
+[18:33:15] [Server thread/INFO]: P0tatoDan[/127.0.0.1:49675] logged in with entity id 58 at ([world]-283.1588391063827, 88.0, -759.9424618903896)
+[18:33:28] [Server thread/INFO]: P0tatoDan lost connection: Disconnected
+[18:33:28] [Server thread/INFO]: P0tatoDan left the game
+[18:34:08] [User Authenticator #0/INFO]: UUID of player AaronkGamez421 is 797f93af-fb99-4391-851a-069388d0305f
+[18:34:08] [Server thread/INFO]: AaronkGamez421 joined the game
+[18:34:08] [Server thread/INFO]: AaronkGamez421[/[0:0:0:0:0:0:0:1]:51467] logged in with entity id 342 at ([world]-224.9707106007977, 72.0, -258.06612728242993)
+[18:35:17] [Server thread/INFO]: AaronkGamez421 issued server command: /pl
+[18:35:42] [Server thread/INFO]: AaronkGamez421 issued server command: /anticreeper:ac
+[18:35:47] [Server thread/INFO]: AaronkGamez421 issued server command: /supe
+[18:35:50] [Server thread/INFO]: AaronkGamez421 issued server command: /superheroes:
+[18:35:53] [Server thread/INFO]: AaronkGamez421 issued server command: /superheroes:hero
+[18:35:54] [Server thread/INFO]: AaronkGamez421 issued server command: /superheroes:hero select
+[18:36:37] [Server thread/INFO]: AaronkGamez421 issued server command: /superheroes:hero select
+[18:36:39] [Server thread/INFO]: AaronkGamez421 issued server command: /superheroes:hero
+[18:37:14] [Server thread/INFO]: AaronkGamez421 issued server command: /superheroes:hero change
+[18:37:19] [Server thread/INFO]: AaronkGamez421 issued server command: /superheroes:hero gui
+[18:37:28] [Server thread/INFO]: AaronkGamez421 issued server command: /pl
+[18:37:44] [Server thread/INFO]: AaronkGamez421 issued server command: /lp
+[18:38:30] [Server thread/INFO]: AaronkGamez421 lost connection: Disconnected
+[18:38:30] [Server thread/INFO]: AaronkGamez421 left the game
+[18:38:32] [User Authenticator #1/INFO]: UUID of player AaronkGamez421 is 797f93af-fb99-4391-851a-069388d0305f
+[18:38:32] [Server thread/INFO]: AaronkGamez421 joined the game
+[18:38:32] [Server thread/INFO]: AaronkGamez421[/[0:0:0:0:0:0:0:1]:51511] logged in with entity id 1016 at ([world]-201.51376966155016, 71.0, -249.7339099413855)
+[18:41:59] [User Authenticator #2/INFO]: UUID of player P0tatoDan is c16cdaaf-82d7-44a7-874c-925c2b12ed4d
+[18:41:59] [Server thread/INFO]: P0tatoDan joined the game
+[18:41:59] [Server thread/INFO]: P0tatoDan[/127.0.0.1:51575] logged in with entity id 1467 at ([world]-280.09457471061137, 88.0, -762.3402761545261)
+[18:42:16] [Async Chat Thread - #3/INFO]: <P0tatoDan> cn you try /hero gui
+[18:42:20] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
+[18:42:27] [Async Chat Thread - #2/INFO]: <AaronkGamez421> you do not have permission to use this power!
+[18:42:34] [Server thread/INFO]: AaronkGamez421 hit the ground too hard
+[18:42:34] [Async Chat Thread - #3/INFO]: <P0tatoDan> awe
+[18:42:37] [Server thread/INFO]: P0tatoDan issued server command: /wait
+[18:42:44] [Async Chat Thread - #2/INFO]: <P0tatoDan> im in the villger dungeon XD
+[18:42:49] [Async Chat Thread - #4/INFO]: <AaronkGamez421> what
+[18:42:52] [Async Chat Thread - #3/INFO]: <P0tatoDan> where we kidnapped villagers
+[18:42:57] [Async Chat Thread - #3/INFO]: <P0tatoDan> get in the boat moment
+[18:43:42] [Server thread/INFO]: P0tatoDan issued server command: /plugmanx:plugman list
+[18:43:47] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
+[18:43:53] [Server thread/INFO]: P0tatoDan issued server command: /luckperms editor
+[18:44:20] [Server thread/INFO]: AaronkGamez421 fell from a high place
+[18:45:13] [Async Chat Thread - #5/INFO]: <P0tatoDan> can you try now ?
+[18:45:16] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
+[18:45:20] [Async Chat Thread - #6/INFO]: <AaronkGamez421> still desame
+[18:45:26] [Async Chat Thread - #5/INFO]: <AaronkGamez421> maybe because
+[18:45:28] [Async Chat Thread - #6/INFO]: <P0tatoDan> :/
+[18:45:29] [Async Chat Thread - #6/INFO]: <AaronkGamez421> i don't have the rank
+[18:45:34] [Async Chat Thread - #5/INFO]: <AaronkGamez421> or whatever
+[18:45:47] [Async Chat Thread - #6/INFO]: <AaronkGamez421> are you on lp editor?
+[18:45:56] [Async Chat Thread - #5/INFO]: <P0tatoDan> YES
+[18:46:05] [Server thread/INFO]: P0tatoDan issued server command: /luckperms applyedits
+[18:46:23] [luckperms-command-executor/INFO]: [LP] Web editor data was applied to user aaronkgamez421 successfully.
+[18:46:23] [luckperms-command-executor/INFO]: [LP] (1 addition and 0 deletions)
+[18:46:23] [luckperms-command-executor/INFO]: +  superheroes.hero (true)
+[18:46:30] [Async Chat Thread - #5/INFO]: <P0tatoDan> how about now
+[18:46:33] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
+[18:46:41] [Async Chat Thread - #6/INFO]: <AaronkGamez421> ok it works
+[18:46:52] [Async Chat Thread - #5/INFO]: <AaronkGamez421> where is the villager dungeon btw?
+[18:46:53] [Async Chat Thread - #6/INFO]: <AaronkGamez421> thanks
+[18:46:55] [Async Chat Thread - #5/INFO]: <P0tatoDan> we are at
+[18:46:56] [Async Chat Thread - #6/INFO]: <AaronkGamez421> also
+[18:47:06] [Async Chat Thread - #5/INFO]: <P0tatoDan> -272
+[18:47:12] [Async Chat Thread - #6/INFO]: <P0tatoDan> 88
+[18:47:19] [Async Chat Thread - #5/INFO]: <P0tatoDan> -762
+[18:51:49] [Async Chat Thread - #7/INFO]: <AaronkGamez421> huh
+[18:51:54] [Async Chat Thread - #8/INFO]: <AaronkGamez421> i found a trident
+[18:52:04] [Async Chat Thread - #7/INFO]: <AaronkGamez421> -340
+[18:52:09] [Async Chat Thread - #8/INFO]: <AaronkGamez421> 61
+[18:52:11] [Async Chat Thread - #7/INFO]: <AaronkGamez421> -590
+[18:52:53] [Server thread/INFO]: AaronkGamez421 was impaled by Drowned
+[18:53:01] [Async Chat Thread - #8/INFO]: <AaronkGamez421> it had a trident
+[18:53:43] [Server thread/INFO]: AaronkGamez421 was killed by AaronkGamez421 using magic
+[18:57:31] [Async Chat Thread - #9/INFO]: <AaronkGamez421> desperate times call for desperate measures
+[18:57:39] [Async Chat Thread - #10/INFO]: <AaronkGamez421> smelting my wooden tools
+[18:58:31] [Server thread/INFO]: AaronkGamez421 has made the advancement [Suit Up]
+[18:59:50] [Server thread/INFO]: AaronkGamez421 has made the advancement [Hot Stuff]
+[19:01:30] [Async Chat Thread - #11/INFO]: <AaronkGamez421> ok
+[19:07:52] [Async Chat Thread - #14/INFO]: <AaronkGamez421> HAHAHA
+[19:07:54] [Async Chat Thread - #13/INFO]: <AaronkGamez421> WHAT A MADLAD I AM
+[19:08:00] [Server thread/INFO]: AaronkGamez421 has made the advancement [We Need to Go Deeper]
+[19:08:22] [Async Chat Thread - #14/INFO]: <AaronkGamez421> u afk?
+[19:08:39] [Async Chat Thread - #14/INFO]: <P0tatoDan> kumakain lang
+[19:08:42] [Async Chat Thread - #13/INFO]: <P0tatoDan> why
+[19:08:47] [Async Chat Thread - #14/INFO]: <AaronkGamez421> read chat lol
+[19:08:58] [Async Chat Thread - #13/INFO]: <AaronkGamez421> i need to regen
+[19:09:01] [Async Chat Thread - #14/INFO]: <P0tatoDan> k
+[19:09:02] [Server thread/INFO]: AaronkGamez421 hit the ground too hard
+[19:09:16] [Async Chat Thread - #13/INFO]: <AaronkGamez421> i made it to the nether
+[19:09:20] [Async Chat Thread - #14/INFO]: <AaronkGamez421> using buckets
+[19:09:34] [Async Chat Thread - #13/INFO]: <P0tatoDan> im not impressed tho
+[19:09:45] [Async Chat Thread - #14/INFO]: <AaronkGamez421> am just sayin
+[19:09:57] [Async Chat Thread - #13/INFO]: <P0tatoDan> gling galing mo no kinkin
+[19:10:36] [Server thread/INFO]: P0tatoDan issued server command: /hero gui
+[19:12:18] [Server thread/INFO]: P0tatoDan was shot by Skeleton
+[19:12:29] [Async Chat Thread - #15/INFO]: <AaronkGamez421> well
+[19:12:30] [Async Chat Thread - #16/INFO]: <AaronkGamez421> go in
+[19:12:51] [Server thread/INFO]: P0tatoDan has made the advancement [Suit Up]
+[19:13:01] [Server thread/INFO]: P0tatoDan has made the advancement [Isn't It Iron Pick]
+[19:13:13] [Async Chat Thread - #16/INFO]: <AaronkGamez421> coords rn?
+[19:13:23] [Async Chat Thread - #15/INFO]: <P0tatoDan> still ung kanina
+[19:13:27] [Async Chat Thread - #16/INFO]: <P0tatoDan> pls dont steal
+[19:13:28] [Async Chat Thread - #16/INFO]: <AaronkGamez421> ok
+[19:13:34] [Async Chat Thread - #15/INFO]: <P0tatoDan> mine ur own minerals
+[19:18:32] [Server thread/INFO]: AaronkGamez421 has made the advancement [A Seedy Place]
+[19:20:29] [Server thread/INFO]: P0tatoDan has made the advancement [Diamonds!]
+[19:29:21] [Async Chat Thread - #17/INFO]: <P0tatoDan> gawa mo kin
+[19:33:22] [Server thread/INFO]: P0tatoDan was slain by Warden
+[19:33:33] [Async Chat Thread - #19/INFO]: <AaronkGamez421> lol
+[19:42:18] [Server thread/INFO]: P0tatoDan has made the advancement [Take Aim]
+[19:44:14] [Async Chat Thread - #21/INFO]: <AaronkGamez421> don't mind me
+[19:44:20] [Async Chat Thread - #22/INFO]: <AaronkGamez421> just smelting my iron in your furnace
+[19:44:52] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
+[19:45:22] [Async Chat Thread - #23/INFO]: <AaronkGamez421> i put the iron
+[19:45:22] [Async Chat Thread - #24/INFO]: <P0tatoDan> where did the other iron go ?
+[19:45:23] [Async Chat Thread - #23/INFO]: <AaronkGamez421> in yo chest
+[19:45:50] [Async Chat Thread - #24/INFO]: <P0tatoDan> sleep
+[19:45:56] [Async Chat Thread - #23/INFO]: <P0tatoDan> kin sleep
+[19:46:13] [Async Chat Thread - #24/INFO]: <P0tatoDan> sleep
+[19:46:38] [Async Chat Thread - #23/INFO]: <P0tatoDan> ty
+[19:46:42] [Server thread/INFO]: AaronkGamez421 has made the advancement [Isn't It Iron Pick]
+[19:47:41] [Async Chat Thread - #25/INFO]: <AaronkGamez421> afk
+[19:56:18] [Server thread/INFO]: Villager EntityVillager['Villager'/11401, uuid='7ea757a2-14da-4bf7-bf7d-4f251b1b94c8', l='ServerLevel[world]', x=-216.71, y=86.00, z=-786.49, cpos=[-14, -50], tl=258927, v=true] died, message: 'Villager was slain by Zombie'
+[19:58:17] [User Authenticator #3/INFO]: UUID of player eligaming28 is 95bb1361-8a91-4bd6-8b51-360da53e4156
+[19:58:17] [Server thread/INFO]: eligaming28 joined the game
+[19:58:17] [Server thread/INFO]: eligaming28[/[0:0:0:0:0:0:0:1]:51825] logged in with entity id 19670 at ([world]-257.93124393621736, 98.875, -937.8751113758076)
+[20:01:01] [Async Chat Thread - #28/INFO]: <eligaming28> saan base naten?
+[20:10:23] [Async Chat Thread - #30/INFO]: <P0tatoDan> dude
+[20:10:33] [Async Chat Thread - #31/INFO]: <P0tatoDan> people there ?
+[20:10:39] [Async Chat Thread - #31/INFO]: <eligaming28> yes
+[20:10:49] [Async Chat Thread - #30/INFO]: <P0tatoDan> kita mo na base ?
+[20:10:54] [Async Chat Thread - #32/INFO]: <eligaming28> ung mineshaft pala ung papunta sa farm
+[20:10:57] [Async Chat Thread - #30/INFO]: <eligaming28> oo
+[20:11:24] [Async Chat Thread - #32/INFO]: <P0tatoDan> minawus la keni
+[20:11:28] [Async Chat Thread - #30/INFO]: <P0tatoDan> maka ospital daw bapang tol
+[20:11:42] [Async Chat Thread - #31/INFO]: <eligaming28> o komusta ya kanu?
+[20:11:47] [Async Chat Thread - #30/INFO]: <P0tatoDan> dadala de pa
+[20:15:47] [Server thread/INFO]: eligaming28 has made the advancement [Diamonds!]
+[20:28:34] [Async Chat Thread - #33/INFO]: <P0tatoDan> pasabi daw kay ate rhea
+[20:28:41] [Async Chat Thread - #34/INFO]: <eligaming28> sinabi ko na
+[20:28:41] [Async Chat Thread - #33/INFO]: <P0tatoDan> di matawag si auntie caring
+[20:29:12] [Async Chat Thread - #34/INFO]: <eligaming28> chat ne daw
+[20:29:22] [Async Chat Thread - #33/INFO]: <P0tatoDan> pano pumunta sa shaft ?
+[20:29:32] [Async Chat Thread - #34/INFO]: <P0tatoDan> asa farm ako
+[20:29:43] [Async Chat Thread - #33/INFO]: <eligaming28> daretso
+[20:29:45] [Async Chat Thread - #34/INFO]: <P0tatoDan> may beet root seeds na btw
+[20:29:57] [Async Chat Thread - #33/INFO]: <P0tatoDan> farm ung sa may bubong ng bahay ?
+[20:30:02] [Server thread/INFO]: Villager EntityVillager['Villager'/11318, uuid='2bc012bd-d1ee-41a4-88ea-582451bde639', l='ServerLevel[world]', x=-203.70, y=75.00, z=-797.39, cpos=[-13, -50], tl=303418, v=true] died, message: 'Villager was slain by Zombie'
+[20:30:34] [Server thread/INFO]: Villager EntityVillager['Weaponsmith'/11317, uuid='f87da0e1-adef-408c-a33a-a300c50a621d', l='ServerLevel[world]', x=-219.51, y=86.00, z=-788.11, cpos=[-14, -50], tl=303646, v=true] died, message: 'Weaponsmith was slain by Zombie'
+[20:30:35] [Async Chat Thread - #34/INFO]: <eligaming28> oo
+[20:30:39] [Async Chat Thread - #33/INFO]: <eligaming28> daresto kapa dun
+[20:30:44] [Async Chat Thread - #34/INFO]: <eligaming28> lampasan mo ung cow farm
+[20:30:58] [Async Chat Thread - #33/INFO]: <eligaming28> may makikita kang tower
+[20:32:47] [Async Chat Thread - #36/INFO]: <P0tatoDan> oks ty
+[20:32:50] [Async Chat Thread - #35/INFO]: <eligaming28> kita mo na?
+[20:32:53] [Async Chat Thread - #35/INFO]: <P0tatoDan> wa
+[20:34:12] [Async Chat Thread - #37/INFO]: <P0tatoDan> meron dun sa baba naten e
+[20:34:18] [Async Chat Thread - #38/INFO]: <P0tatoDan> di ko nakuhanan ng coords
+[20:34:30] [Async Chat Thread - #37/INFO]: <P0tatoDan> uyy
+[20:34:44] [Async Chat Thread - #37/INFO]: <P0tatoDan> malapit din ung warden dito sayo
+[20:34:47] [Async Chat Thread - #37/INFO]: <P0tatoDan> ayos
+[20:34:53] [Async Chat Thread - #37/INFO]: <P0tatoDan> tra patayin naten
+[20:35:05] [Async Chat Thread - #38/INFO]: <eligaming28> gusto mo tali?
+[20:35:14] [Async Chat Thread - #37/INFO]: <P0tatoDan> :O may tali na ?
+[20:35:19] [Async Chat Thread - #38/INFO]: <eligaming28> eto patayin naten trader
+[20:35:23] [Async Chat Thread - #37/INFO]: <P0tatoDan> ayy lead
+[20:35:28] [Async Chat Thread - #37/INFO]: <P0tatoDan> wa cge
+[20:35:30] [Async Chat Thread - #38/INFO]: <P0tatoDan> paten me XD
+[20:35:37] [Async Chat Thread - #37/INFO]: <P0tatoDan> yan ung use nyasn e
+[20:36:56] [Async Chat Thread - #40/INFO]: <P0tatoDan> may spawner
+[20:37:09] [Async Chat Thread - #39/INFO]: <P0tatoDan> may saddle
+[20:38:06] [Server thread/INFO]: P0tatoDan has made the advancement [Sneak 100]
+[20:38:53] [Async Chat Thread - #41/INFO]: <P0tatoDan> may parang lair dito
+[20:38:59] [Server thread/INFO]: P0tatoDan has made the advancement [Cover Me with Diamonds]
+[20:39:07] [Async Chat Thread - #41/INFO]: <P0tatoDan> another saddle
+[20:41:00] [Async Chat Thread - #43/INFO]: <AaronkGamez421> im back
+[20:41:09] [Async Chat Thread - #44/INFO]: <AaronkGamez421> you guys afk?
+[20:41:13] [Async Chat Thread - #43/INFO]: <P0tatoDan> kin
+[20:41:16] [Async Chat Thread - #44/INFO]: <AaronkGamez421> yes?
+[20:41:17] [Async Chat Thread - #43/INFO]: <P0tatoDan> check messenger
+[20:41:32] [Async Chat Thread - #44/INFO]: <AaronkGamez421> ah noice
+[20:41:36] [Async Chat Thread - #43/INFO]: <AaronkGamez421> ancient city
+[20:41:37] [Async Chat Thread - #44/INFO]: <P0tatoDan> i have 3 saddles now
+[20:41:39] [Async Chat Thread - #44/INFO]: <P0tatoDan> :O
+[20:41:41] [Async Chat Thread - #43/INFO]: <AaronkGamez421> from what i remember i think
+[20:41:42] [Async Chat Thread - #44/INFO]: <P0tatoDan> im full
+[20:41:44] [Async Chat Thread - #43/INFO]: <P0tatoDan> inv
+[20:41:45] [Async Chat Thread - #44/INFO]: <AaronkGamez421> Can I have one?
+[20:41:48] [Async Chat Thread - #44/INFO]: <P0tatoDan> u can
+[20:41:49] [Async Chat Thread - #43/INFO]: <AaronkGamez421> sakto 3
+[20:42:07] [Async Chat Thread - #44/INFO]: <P0tatoDan> 2 chest plang na loot ko
+[20:42:11] [Async Chat Thread - #43/INFO]: <AaronkGamez421> coords?
+[20:42:38] [Async Chat Thread - #44/INFO]: <AaronkGamez421> para mabalikan ko
+[20:42:56] [Async Chat Thread - #43/INFO]: <AaronkGamez421> f3
+[20:43:02] [Async Chat Thread - #44/INFO]: <P0tatoDan> messenger
+[20:43:12] [Async Chat Thread - #44/INFO]: <AaronkGamez421> thx
+[20:44:02] [Async Chat Thread - #44/INFO]: <AaronkGamez421> i sleep
+[20:44:27] [Server thread/INFO]: P0tatoDan was obliterated by a sonically-charged shriek
+[20:44:36] [Async Chat Thread - #44/INFO]: <P0tatoDan> ITS TO OP
+[20:44:41] [Async Chat Thread - #44/INFO]: <P0tatoDan> he has kamehameha
+[20:44:49] [Async Chat Thread - #43/INFO]: <AaronkGamez421> plus
+[20:44:54] [Async Chat Thread - #44/INFO]: <AaronkGamez421> he does not have that much rewarding loot
+[20:44:57] [Async Chat Thread - #43/INFO]: <AaronkGamez421> other than xp
+[20:45:08] [Async Chat Thread - #44/INFO]: <AaronkGamez421> he is just basically
+[20:45:10] [Async Chat Thread - #43/INFO]: <AaronkGamez421> a pain in the ass
+[20:48:02] [Async Chat Thread - #45/INFO]: <P0tatoDan> tra loot
+[20:48:08] [Async Chat Thread - #46/INFO]: <AaronkGamez421> nasan entrance
+[20:48:12] [Async Chat Thread - #46/INFO]: <AaronkGamez421> where entrance
+[20:48:16] [Async Chat Thread - #45/INFO]: <P0tatoDan> sa farm sa taas may totems
+[20:48:33] [Async Chat Thread - #45/INFO]: <P0tatoDan> dude
+[20:48:37] [Async Chat Thread - #45/INFO]: <P0tatoDan> tra
+[20:48:46] [Async Chat Thread - #46/INFO]: <eligaming28> ano?
+[20:48:48] [Async Chat Thread - #45/INFO]: <P0tatoDan> tra
+[20:48:51] [Async Chat Thread - #46/INFO]: <AaronkGamez421> u still in the cave?
+[20:48:52] [Async Chat Thread - #45/INFO]: <P0tatoDan> loot
+[20:48:59] [Async Chat Thread - #47/INFO]: <eligaming28> saan
+[20:49:13] [Async Chat Thread - #45/INFO]: <P0tatoDan> d2
+[20:49:26] [Async Chat Thread - #47/INFO]: <P0tatoDan> d2
+[20:49:49] [Async Chat Thread - #47/INFO]: <P0tatoDan> uy patatas
+[20:49:56] [Async Chat Thread - #45/INFO]: <P0tatoDan> mag gravity ka haha
+[20:50:03] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
+[20:50:17] [Async Chat Thread - #47/INFO]: <AaronkGamez421> where u at guys
+[20:50:20] [Server thread/INFO]: P0tatoDan issued server command: /luckperms:lp editor
+[20:50:23] [Async Chat Thread - #45/INFO]: <AaronkGamez421> still in the cave?
+[20:50:23] [Async Chat Thread - #45/INFO]: <eligaming28> d2
+[20:50:29] [Async Chat Thread - #47/INFO]: <P0tatoDan> yes
+[20:50:36] [Async Chat Thread - #45/INFO]: <eligaming28> sa kabila ung shaft ea
+[20:50:56] [Server thread/INFO]: P0tatoDan issued server command: /luckperms:lp applyedits CC46oHNxcc
+[20:50:56] [luckperms-command-executor/INFO]: [LP] LOG > (P0tatoDan) [U] (eligaming28)
+[20:50:56] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add superheroes.hero true
+[20:51:03] [Async Chat Thread - #45/INFO]: <P0tatoDan> may access ka sa heros dude
+[20:51:08] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
+[20:51:15] [Async Chat Thread - #47/INFO]: <P0tatoDan> d2
+[20:51:21] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
+[20:51:39] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
+[20:51:47] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
+[20:51:58] [Async Chat Thread - #45/INFO]: <P0tatoDan> wer u at
+[20:52:27] [Async Chat Thread - #47/INFO]: <AaronkGamez421> i don't even know lol
+[20:52:34] [Async Chat Thread - #48/INFO]: <P0tatoDan> d2
+[20:52:37] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
+[20:52:53] [Async Chat Thread - #47/INFO]: <P0tatoDan> dont step on blue blocks
+[20:52:57] [Async Chat Thread - #47/INFO]: <P0tatoDan> as much as possible
+[20:53:10] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
+[20:53:29] [Async Chat Thread - #48/INFO]: <P0tatoDan> breaking blue blocks gives exp
+[20:53:39] [Async Chat Thread - #47/INFO]: <AaronkGamez421> yep
+[20:53:52] [Async Chat Thread - #48/INFO]: <P0tatoDan> actually im talking to kuya mike XD
+[20:53:54] [Async Chat Thread - #47/INFO]: <AaronkGamez421> and if exp is dropped
+[20:53:57] [Async Chat Thread - #47/INFO]: <AaronkGamez421> on sculk blocks
+[20:53:59] [Async Chat Thread - #49/INFO]: <P0tatoDan> sa baba dude
+[20:54:00] [Async Chat Thread - #49/INFO]: <AaronkGamez421> it spread
+[20:54:02] [Async Chat Thread - #48/INFO]: <AaronkGamez421> s
+[20:54:06] [Async Chat Thread - #48/INFO]: <eligaming28> anong meron dun
+[20:54:10] [Async Chat Thread - #49/INFO]: <P0tatoDan> loots
+[20:54:11] [Async Chat Thread - #49/INFO]: <P0tatoDan> dami
+[20:54:19] [Async Chat Thread - #49/INFO]: <P0tatoDan> ancient city daw
+[20:54:33] [Async Chat Thread - #48/INFO]: <P0tatoDan> 2 plang na loot ko puno na agad ako
+[20:54:38] [Async Chat Thread - #47/INFO]: <P0tatoDan> dun ako naka 2 saddle
+[20:54:54] [Async Chat Thread - #47/INFO]: <P0tatoDan> d2
+[20:55:08] [Server thread/INFO]: eligaming28 was shot by P0tatoDan
+[20:55:10] [Async Chat Thread - #47/INFO]: <P0tatoDan> ay
+[20:55:16] [Async Chat Thread - #47/INFO]: <P0tatoDan> may zombie sa likod mo
+[20:55:18] [Server thread/INFO]: AaronkGamez421 fell from a high place
+[20:55:19] [Async Chat Thread - #49/INFO]: <eligaming28> ikaw nalang mag loots jan
+[20:55:25] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
+[20:55:56] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
+[20:56:54] [Async Chat Thread - #50/INFO]: <AaronkGamez421> you need armor
+[20:57:03] [Async Chat Thread - #51/INFO]: <P0tatoDan> warden fast to summon this time
+[20:57:05] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
+[20:57:19] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
+[20:57:23] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
+[20:58:26] [Server thread/INFO]: P0tatoDan was obliterated by a sonically-charged shriek
+[20:58:29] [Async Chat Thread - #52/INFO]: <P0tatoDan> too op
+[20:58:36] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
+[20:58:48] [Async Chat Thread - #53/INFO]: <AaronkGamez421> thx
+[20:59:14] [Async Chat Thread - #52/INFO]: <P0tatoDan> u can have 1 horse diamond armor kin
+[20:59:19] [Async Chat Thread - #53/INFO]: <AaronkGamez421> noice
+[20:59:30] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
+[20:59:31] [Async Chat Thread - #52/INFO]: <P0tatoDan> @eli pili ka na lang armor
+[21:00:03] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
+[21:00:54] [Async Chat Thread - #54/INFO]: <P0tatoDan> hirap magloot pag nalabas na ung warden
+[21:02:56] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
+[21:03:23] [Server thread/INFO]: AaronkGamez421 was slain by Zombie
+[21:03:26] [Async Chat Thread - #56/INFO]: <AaronkGamez421> yes
+[21:03:28] [Async Chat Thread - #57/INFO]: <AaronkGamez421> full health
+[21:03:44] [Async Chat Thread - #56/INFO]: <AaronkGamez421> why am i getting blindness lol
+[21:04:22] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
+[21:04:30] [Server thread/INFO]: AaronkGamez421 lost connection: Disconnected
+[21:04:30] [Server thread/INFO]: AaronkGamez421 left the game
+[21:04:35] [User Authenticator #4/INFO]: UUID of player AaronkGamez421 is 797f93af-fb99-4391-851a-069388d0305f
+[21:04:35] [Server thread/INFO]: AaronkGamez421 joined the game
+[21:04:35] [Server thread/INFO]: AaronkGamez421[/[0:0:0:0:0:0:0:1]:52058] logged in with entity id 32578 at ([world]-269.8352409104367, 86.0, -766.6171620104974)
+[21:04:47] [Server thread/INFO]: AaronkGamez421 fell from a high place
+[21:04:49] [Async Chat Thread - #56/INFO]: <AaronkGamez421> oh
+[21:04:52] [Async Chat Thread - #56/INFO]: <AaronkGamez421> it doesn't work
+[21:05:15] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
+[21:05:56] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
+[21:06:33] [Async Chat Thread - #59/INFO]: <AaronkGamez421> yo
+[21:06:35] [Async Chat Thread - #59/INFO]: <AaronkGamez421> ima test smth
+[21:06:42] [Async Chat Thread - #60/INFO]: <P0tatoDan> im farming
+[21:06:45] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
+[21:06:51] [Async Chat Thread - #59/INFO]: <P0tatoDan> go do some better stuff
+[21:07:22] [Async Chat Thread - #60/INFO]: <P0tatoDan> now im thinking of making contributions on the community
+[21:07:29] [Async Chat Thread - #59/INFO]: <P0tatoDan> or else perma ban
+[21:07:33] [Async Chat Thread - #59/INFO]: <P0tatoDan> that means u kinkin
+[21:07:37] [Async Chat Thread - #60/INFO]: <P0tatoDan> stop griefing
+[21:07:43] [Async Chat Thread - #60/INFO]: <AaronkGamez421> dude
+[21:07:48] [Async Chat Thread - #60/INFO]: <AaronkGamez421> it was just one hit
+[21:07:51] [Async Chat Thread - #60/INFO]: <AaronkGamez421> i was testing dracula
+[21:07:56] [Async Chat Thread - #60/INFO]: <AaronkGamez421> if i get regen
+[21:07:57] [Async Chat Thread - #59/INFO]: <P0tatoDan> amah report u to the a person higher than me
+[21:08:02] [Async Chat Thread - #59/INFO]: <P0tatoDan> yo momma
+[21:08:14] [Async Chat Thread - #59/INFO]: <AaronkGamez421> lol
+[21:11:02] [Async Chat Thread - #61/INFO]: <AaronkGamez421> ayo
+[21:11:05] [Async Chat Thread - #61/INFO]: <AaronkGamez421> i found amethyst geode
+[21:11:23] [Async Chat Thread - #61/INFO]: <P0tatoDan> share coords in messenger
+[21:14:26] [Async Chat Thread - #63/INFO]: <AaronkGamez421> ok
+[21:14:29] [Async Chat Thread - #65/INFO]: <AaronkGamez421> gtg guys
+[21:14:36] [Async Chat Thread - #65/INFO]: <AaronkGamez421> yes i sent in messenger
+[21:14:39] [Async Chat Thread - #65/INFO]: <P0tatoDan> ty
+[21:14:41] [Async Chat Thread - #65/INFO]: <P0tatoDan> night
+[21:14:49] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
+[21:15:03] [Async Chat Thread - #65/INFO]: <eligaming28> meeting
+[21:15:09] [Async Chat Thread - #65/INFO]: <P0tatoDan> ok
+[21:15:14] [Server thread/INFO]: AaronkGamez421 fell from a high place
+[21:15:18] [Async Chat Thread - #65/INFO]: <AaronkGamez421> oh sry
+[21:15:21] [Server thread/INFO]: AaronkGamez421 lost connection: Disconnected
+[21:15:21] [Server thread/INFO]: AaronkGamez421 left the game
+[21:22:13] [Async Chat Thread - #67/INFO]: <P0tatoDan> ginagawa mue
+[21:22:41] [Server thread/INFO]: P0tatoDan issued server command: /hero select Repulsion
+[21:23:01] [Async Chat Thread - #66/INFO]: <P0tatoDan> oks na :D
+[21:23:03] [Async Chat Thread - #66/INFO]: <P0tatoDan> meron nako
+[21:23:19] [Async Chat Thread - #67/INFO]: <P0tatoDan> dude
+[21:23:23] [Async Chat Thread - #67/INFO]: <P0tatoDan> kunin mo uli
+[21:23:41] [Async Chat Thread - #67/INFO]: <P0tatoDan> ty
+[21:23:45] [Async Chat Thread - #66/INFO]: <P0tatoDan> may isa ako nakuha
+[21:23:49] [Async Chat Thread - #67/INFO]: <eligaming28> ok
+[21:23:59] [Async Chat Thread - #66/INFO]: <P0tatoDan> ok tong power na to pang usog ng mobs
+[21:24:03] [Async Chat Thread - #66/INFO]: <P0tatoDan> Repulsion
+[21:24:12] [Async Chat Thread - #66/INFO]: <eligaming28> haha
+[21:24:41] [Async Chat Thread - #67/INFO]: <P0tatoDan> haha
+[21:24:47] [Async Chat Thread - #66/INFO]: <eligaming28> pati drop lumalayo
+[21:24:50] [Async Chat Thread - #67/INFO]: <P0tatoDan> wa XD
+[21:25:45] [Async Chat Thread - #68/INFO]: <P0tatoDan> mangulung naku babu
+[21:25:55] [Async Chat Thread - #67/INFO]: <eligaming28> haah
+[21:25:58] [Async Chat Thread - #67/INFO]: <eligaming28> ge lang
+[21:26:18] [Async Chat Thread - #67/INFO]: <P0tatoDan> walang carrots e
+[21:26:25] [Async Chat Thread - #67/INFO]: <P0tatoDan> o repel ko na lang XD
+[21:27:38] [Async Chat Thread - #69/INFO]: <eligaming28> ui
+[21:27:41] [Async Chat Thread - #70/INFO]: <eligaming28> may castle
+[21:27:45] [Async Chat Thread - #70/INFO]: <P0tatoDan> sa baba?
+[21:27:51] [Async Chat Thread - #70/INFO]: <P0tatoDan> ancient city nga yan XD
+[21:28:24] [Async Chat Thread - #69/INFO]: <P0tatoDan> ahh iba yan dude
+[21:28:26] [Async Chat Thread - #70/INFO]: <P0tatoDan> mansion yan
+[21:28:34] [Async Chat Thread - #69/INFO]: <P0tatoDan> madami ung may dalang axe dyan XD
+[21:28:38] [Async Chat Thread - #70/INFO]: <P0tatoDan> ung masakit
+[21:28:46] [Async Chat Thread - #69/INFO]: <P0tatoDan> at may powers na fairy
+[21:29:57] [Async Chat Thread - #72/INFO]: <P0tatoDan> may rope pla
+[21:30:01] [Async Chat Thread - #72/INFO]: <P0tatoDan> mas madali manghuli ng baboy
+[21:30:48] [Server thread/INFO]: P0tatoDan issued server command: /hero select GravityGuy
+[21:34:03] [Server thread/INFO]: P0tatoDan issued server command: /hero select Strongman
+[21:35:08] [Async Chat Thread - #73/INFO]: <eligaming28> ganda loots d2?
+[21:35:13] [Async Chat Thread - #73/INFO]: <P0tatoDan> depende
+[21:35:18] [Async Chat Thread - #73/INFO]: <P0tatoDan> pero madame chest dyan alam ko
+[21:35:21] [Async Chat Thread - #73/INFO]: <P0tatoDan> minsan wala laman haha
+[21:39:13] [Server thread/INFO]: P0tatoDan issued server command: /hero select Speedster
+[21:51:18] [Async Chat Thread - #75/INFO]: <eligaming28> haha
+[21:51:20] [Async Chat Thread - #75/INFO]: <eligaming28> sakit nga
+[21:55:13] [Async Chat Thread - #77/INFO]: <P0tatoDan> afk ku saglit
+[21:55:17] [Async Chat Thread - #77/INFO]: <eligaming28> ge
+[21:58:28] [Async Chat Thread - #79/INFO]: <P0tatoDan> back
+[21:58:49] [Async Chat Thread - #80/INFO]: <P0tatoDan> pano pumunta sa mansion
+[21:58:58] [Async Chat Thread - #79/INFO]: <eligaming28> sa farm
+[21:59:02] [Async Chat Thread - #80/INFO]: <eligaming28> daretso lang din
+[21:59:09] [Async Chat Thread - #79/INFO]: <P0tatoDan> from ?
+[21:59:21] [Async Chat Thread - #79/INFO]: <eligaming28> lampasan mo ung shaft
+[21:59:28] [Async Chat Thread - #79/INFO]: <P0tatoDan> oks
+[22:00:50] [Server thread/INFO]: P0tatoDan issued server command: /hero select GravityGuy
+[22:01:47] [Async Chat Thread - #81/INFO]: <eligaming28> saan kana?
+[22:02:08] [Async Chat Thread - #82/INFO]: <P0tatoDan> sa may mushrooms
+[22:02:12] [Async Chat Thread - #81/INFO]: <eligaming28> lapit kana
+[22:02:57] [Async Chat Thread - #81/INFO]: <P0tatoDan> tatawid ilog ?
+[22:03:02] [Async Chat Thread - #82/INFO]: <eligaming28> hnd
+[22:03:09] [Async Chat Thread - #81/INFO]: <P0tatoDan> ay
+[22:03:16] [Async Chat Thread - #82/INFO]: <P0tatoDan> sa right ko pala
+[22:03:20] [Async Chat Thread - #81/INFO]: <P0tatoDan> d2 na
+[22:03:59] [Async Chat Thread - #82/INFO]: <P0tatoDan> niluban mu na?
+[22:04:03] [Async Chat Thread - #82/INFO]: <eligaming28> wa
+[22:04:06] [Async Chat Thread - #81/INFO]: <eligaming28> kaso masakit
+[22:04:13] [Async Chat Thread - #82/INFO]: <P0tatoDan> tra
+[22:04:19] [Async Chat Thread - #81/INFO]: <P0tatoDan> gamit tayo powers
+[22:04:30] [Async Chat Thread - #82/INFO]: <P0tatoDan> gun para long range :D
+[22:04:40] [Server thread/INFO]: P0tatoDan issued server command: /hero select Gun
+[22:04:47] [Async Chat Thread - #82/INFO]: <P0tatoDan> wag ung dragon manununog
+[22:05:00] [Async Chat Thread - #81/INFO]: <eligaming28> d2 entrance4
+[22:05:25] [Async Chat Thread - #82/INFO]: <P0tatoDan> san
+[22:06:05] [Async Chat Thread - #81/INFO]: <eligaming28> loko tin la farm
+[22:06:08] [Async Chat Thread - #82/INFO]: <P0tatoDan> wa
+[22:06:15] [Async Chat Thread - #81/INFO]: <P0tatoDan> community la keni XD
+[22:06:56] [Async Chat Thread - #82/INFO]: <P0tatoDan> 2nd floor ku
+[22:07:07] [Async Chat Thread - #82/INFO]: <P0tatoDan> pabantay sana likod ko XD
+[22:07:22] [Async Chat Thread - #82/INFO]: <eligaming28> may pearl
+[22:07:24] [Async Chat Thread - #82/INFO]: <eligaming28> kada kill
+[22:07:35] [Async Chat Thread - #81/INFO]: <P0tatoDan> exp ?
+[22:07:42] [Async Chat Thread - #82/INFO]: <P0tatoDan> emerald?
+[22:07:45] [Async Chat Thread - #81/INFO]: <eligaming28> wa
+[22:07:48] [Async Chat Thread - #82/INFO]: <P0tatoDan> ali man per kill
+[22:08:00] [Async Chat Thread - #82/INFO]: <P0tatoDan> mekarakal naku
+[22:08:04] [Async Chat Thread - #82/INFO]: <P0tatoDan> 1 emerald ya pa hehe
+[22:08:56] [Server thread/INFO]: P0tatoDan was slain by Vindicator
+[22:08:59] [Async Chat Thread - #81/INFO]: <P0tatoDan> tae
+[22:10:13] [Server thread/INFO]: P0tatoDan issued server command: /hero select Superhuman
+[22:14:22] [Async Chat Thread - #83/INFO]: <P0tatoDan> kita ko na room of chest
+[22:14:34] [Async Chat Thread - #84/INFO]: <eligaming28> hnd pa
+[22:14:36] [Async Chat Thread - #85/INFO]: <eligaming28> sakit ea
+[22:14:39] [Async Chat Thread - #84/INFO]: <P0tatoDan> wala laman
+[22:14:44] [Async Chat Thread - #85/INFO]: <P0tatoDan> mag superHuman ka
+[22:14:50] [Async Chat Thread - #85/INFO]: <P0tatoDan> okaya golem
+[22:14:52] [Async Chat Thread - #85/INFO]: <P0tatoDan> iron golem
+[22:14:55] [Async Chat Thread - #84/INFO]: <P0tatoDan> powers
+[22:16:03] [Server thread/INFO]: eligaming28 was slain by Vindicator
+[22:18:27] [Async Chat Thread - #86/INFO]: <P0tatoDan> may parang RUNES akong nakuha
+[22:18:41] [Async Chat Thread - #87/INFO]: <eligaming28> hehe
+[22:18:45] [Async Chat Thread - #86/INFO]: <eligaming28> kada kill ko may emerald
+[22:18:49] [Async Chat Thread - #87/INFO]: <P0tatoDan> wala
+[22:18:54] [Async Chat Thread - #87/INFO]: <eligaming28> saken meron
+[22:18:54] [Async Chat Thread - #86/INFO]: <P0tatoDan> high chance lang siguro
+[22:19:02] [Async Chat Thread - #87/INFO]: <eligaming28> naka apat ako ea
+[22:19:04] [Async Chat Thread - #86/INFO]: <P0tatoDan> mag SuperHuman ka powers kumunat ka bagya
+[22:19:07] [Async Chat Thread - #86/INFO]: <P0tatoDan> speed
+[22:19:08] [Async Chat Thread - #87/INFO]: <P0tatoDan> and armor
+[22:19:17] [Async Chat Thread - #86/INFO]: <eligaming28> pano
+[22:19:27] [Server thread/INFO]: P0tatoDan issued server command: / hero select SuperHuman
+[22:19:34] [Async Chat Thread - #87/INFO]: <P0tatoDan> hero select SuperHuman
+[22:19:41] [Async Chat Thread - #87/INFO]: <P0tatoDan> asa hero GUI din
+[22:19:56] [Async Chat Thread - #87/INFO]: <eligaming28> ui
+[22:19:59] [Async Chat Thread - #86/INFO]: <eligaming28> may napulot ako potato
+[22:20:07] [Async Chat Thread - #87/INFO]: <eligaming28> iisa
+[22:20:09] [Async Chat Thread - #86/INFO]: <eligaming28> xD
+[22:20:09] [Async Chat Thread - #86/INFO]: <P0tatoDan> wala nga chance lang
+[22:20:16] [Async Chat Thread - #87/INFO]: <P0tatoDan> carrots need naten haha
+[22:20:19] [Async Chat Thread - #87/INFO]: <P0tatoDan> may patatas na tay
+[22:20:59] [Async Chat Thread - #86/INFO]: <P0tatoDan> ala na kalaban
+[22:21:06] [Async Chat Thread - #86/INFO]: <P0tatoDan> tsu ku 3rd floor
+[22:21:16] [Async Chat Thread - #87/INFO]: <eligaming28> may kalaban pa sa second floor
+[22:21:19] [Async Chat Thread - #86/INFO]: <eligaming28> dun ako na deads ea
+[22:21:46] [Async Chat Thread - #87/INFO]: <P0tatoDan> ayaw ko ung nagsummon
+[22:22:03] [Async Chat Thread - #86/INFO]: <eligaming28> may portal na?
+[22:22:47] [Async Chat Thread - #87/INFO]: <P0tatoDan> pero maganda pla loots non
+[22:22:50] [Async Chat Thread - #86/INFO]: <P0tatoDan> totem of undying
+[22:22:58] [Async Chat Thread - #86/INFO]: <eligaming28> ohh
+[22:23:06] [Async Chat Thread - #87/INFO]: <P0tatoDan> menikwa ku :D
+[22:23:09] [Async Chat Thread - #86/INFO]: <eligaming28> ayos
+[22:26:08] [Server thread/INFO]: P0tatoDan was slain by Vex
+[22:26:15] [Async Chat Thread - #88/INFO]: <P0tatoDan> tae hirap ng Vex
+[22:26:17] [Async Chat Thread - #88/INFO]: <eligaming28> aru
+[22:26:23] [Async Chat Thread - #88/INFO]: <eligaming28> ala na ung totem
+[22:26:29] [Async Chat Thread - #89/INFO]: <P0tatoDan> asakin pa
+[22:26:34] [Async Chat Thread - #88/INFO]: <P0tatoDan> sayang ung isang vex
+[22:26:36] [Async Chat Thread - #90/INFO]: <P0tatoDan> di napatay
+[22:26:38] [Server thread/INFO]: eligaming28 has made the advancement [Suit Up]
+[22:26:53] [Async Chat Thread - #88/INFO]: <eligaming28> haha
+[22:27:02] [Async Chat Thread - #88/INFO]: <eligaming28> mag spawn la pa reta
+[22:27:38] [Async Chat Thread - #88/INFO]: <eligaming28> mag it ya i eunis
+[22:27:45] [Async Chat Thread - #88/INFO]: <eligaming28> oneng next year na
+[22:27:49] [Async Chat Thread - #90/INFO]: <P0tatoDan> yan XD
+[22:27:59] [Async Chat Thread - #88/INFO]: <P0tatoDan> buti ika kinangwa XD
+[22:28:01] [Async Chat Thread - #90/INFO]: <eligaming28> pangarap maging empleyado ea
+[22:28:03] [Async Chat Thread - #90/INFO]: <P0tatoDan> di ako kinakausap nun e XD
+[22:28:16] [Async Chat Thread - #90/INFO]: <eligaming28> si ate kath mu ung unang nag offer dati d2 dba
+[22:28:22] [Async Chat Thread - #88/INFO]: <P0tatoDan> ahh
+[22:28:24] [Async Chat Thread - #90/INFO]: <eligaming28> kaya siguru
+[22:28:41] [Async Chat Thread - #90/INFO]: <eligaming28> bago lumipad si ate tanang nag offer si ate kath mu para mag stay ya i ate tanang sana
+[22:30:23] [Async Chat Thread - #91/INFO]: <P0tatoDan> tra bawi
+[22:32:46] [Server thread/INFO]: P0tatoDan issued server command: /plugman list
+[22:33:24] [Server thread/INFO]: P0tatoDan issued server command: /help
+[22:33:35] [Server thread/INFO]: P0tatoDan issued server command: /Bosses
+[22:33:41] [Server thread/INFO]: P0tatoDan issued server command: /bosses:ancient
+[22:33:41] [Server thread/INFO]: P0tatoDan was slain by Ancient Wither Skeleton
+[22:33:48] [Async Chat Thread - #93/INFO]: <P0tatoDan> wtf
+[22:33:54] [Async Chat Thread - #94/INFO]: <eligaming28> wahahaha
+[22:34:02] [Async Chat Thread - #94/INFO]: <P0tatoDan> tatry ke itang plugin e
+[22:35:20] [Server thread/INFO]: P0tatoDan issued server command: /kill @e[type=minecraft:wither_skeleton]
+[22:37:19] [Server thread/INFO]: P0tatoDan fell from a high place
+[22:40:40] [Server thread/INFO]: P0tatoDan issued server command: /hero select Floral
+[22:41:11] [Server thread/INFO]: P0tatoDan issued server command: /hero select Superhuman
+[22:49:15] [Async Chat Thread - #95/INFO]: <P0tatoDan> tin na map keta makasabit
+[22:49:24] [Async Chat Thread - #95/INFO]: <P0tatoDan> kaso ung mansion sa labas ng map XD
+[22:49:39] [Async Chat Thread - #96/INFO]: <P0tatoDan> ay di pala
+[22:54:31] [Async Chat Thread - #97/INFO]: <P0tatoDan> nakawin ko mga books sa mansion XD
+[22:54:37] [Async Chat Thread - #98/INFO]: <P0tatoDan> dami e
+[22:54:39] [Async Chat Thread - #97/INFO]: <eligaming28> hehe
+[23:08:01] [Server thread/INFO]: P0tatoDan has made the advancement [Hot Stuff]
+[23:11:01] [Server thread/INFO]: P0tatoDan has made the advancement [Ice Bucket Challenge]
+[23:12:32] [Server thread/INFO]: P0tatoDan issued server command: /hero select Speedster
+[23:13:20] [Async Chat Thread - #99/INFO]: <eligaming28> tumal ng mineshaft
+[23:13:37] [Async Chat Thread - #99/INFO]: <P0tatoDan> mas marakal chest ancient city sobra
+[23:14:22] [Async Chat Thread - #100/INFO]: <P0tatoDan> sakto lang mga diamond ko para sa enchanted table XD
+[23:14:30] [Async Chat Thread - #99/INFO]: <P0tatoDan> dana
+[23:15:33] [Server thread/INFO]: P0tatoDan issued server command: /hero select GravityGuy
+[23:16:11] [Async Chat Thread - #101/INFO]: <eligaming28> tin na portal?
+[23:16:23] [Async Chat Thread - #102/INFO]: <P0tatoDan> tin ya gewa kinkin malapit spawn XD
+[23:16:34] [Async Chat Thread - #101/INFO]: <P0tatoDan> atin malapit broken portal ken base
+[23:16:41] [Async Chat Thread - #101/INFO]: <eligaming28> wa
+[23:16:46] [Async Chat Thread - #102/INFO]: <eligaming28> a loot ke ita
+[23:16:51] [Async Chat Thread - #101/INFO]: <P0tatoDan> keta ko pengwa retang obsi
+[23:21:34] [Async Chat Thread - #103/INFO]: <P0tatoDan> wag
+[23:21:36] [Async Chat Thread - #104/INFO]: <P0tatoDan> langya
+[23:21:43] [Async Chat Thread - #104/INFO]: <P0tatoDan> ni landscape ko yan e XD
+[23:21:47] [Async Chat Thread - #104/INFO]: <P0tatoDan> library dito
+[23:26:47] [Server thread/INFO]: P0tatoDan issued server command: /hero select Superhuman
+[23:26:54] [Async Chat Thread - #105/INFO]: <P0tatoDan> pillagers
+[23:28:03] [Async Chat Thread - #107/INFO]: <eligaming28> saan
+[23:28:10] [Async Chat Thread - #108/INFO]: <P0tatoDan> sa bandang papuntang shaft
+[23:28:16] [Async Chat Thread - #107/INFO]: <P0tatoDan> di ko sure if meron pa
+[23:28:32] [Server thread/INFO]: P0tatoDan issued server command: /hero select GravityGuy
+[23:35:20] [Server thread/INFO]: P0tatoDan issued server command: /superheroes:hero select Doomfist
+[23:35:52] [Server thread/INFO]: P0tatoDan issued server command: /hero select Enderman
+[23:36:13] [Server thread/WARN]: P0tatoDan moved too quickly! 29.026494479816677,2.837208445972621,0.9021599927101533
+[23:36:25] [Server thread/WARN]: P0tatoDan moved too quickly! 28.759372085734128,5.92482610531745,7.373397417631054
+[23:36:27] [Server thread/INFO]: P0tatoDan fell from a high place
+[23:39:04] [Server thread/INFO]: P0tatoDan issued server command: /hero select GravityGuy
+[23:41:35] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-80 (MC: 1.20.1) ---
+[23:41:35] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[23:41:35] [Paper Watchdog Thread/ERROR]: ------------------------------
+[23:41:35] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[23:41:35] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
+[23:41:35] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
+[23:41:35] [Paper Watchdog Thread/ERROR]: Entity UUID: 95bb1361-8a91-4bd6-8b51-360da53e4156
+[23:41:35] [Paper Watchdog Thread/ERROR]: Position: world: 'world' at location (27.30000001192093, 58.0, -1209.9417187471583)
+[23:41:35] [Paper Watchdog Thread/ERROR]: Velocity: (0.0, -0.005, 0.0) (in blocks per tick)
+[23:41:35] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[27.0, 58.0, -1210.2417187590793] -> [27.600000023841858, 59.799999952316284, -1209.6417187352374]
+[23:41:35] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 513951
+[23:41:35] [Paper Watchdog Thread/ERROR]: ------------------------------
+[23:41:35] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[23:41:35] [Paper Watchdog Thread/ERROR]: 	PID: 29 | Suspended: false | Native: false | State: RUNNABLE
+[23:41:35] [Paper Watchdog Thread/ERROR]: 	Stack:
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.HashMap.hash(HashMap.java:338)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.HashMap.computeIfAbsent(HashMap.java:1191)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.wrap(NoiseChunk.java:335)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk$$Lambda$8437/0x00000008021f8000.apply(Unknown Source)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunction$SimpleFunction.mapAll(DensityFunction.java:107)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:648)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.a(DensityFunctions.java:604)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Spline$Coordinate.mapAll(DensityFunctions.java:1107)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Spline.lambda$mapAll$0(DensityFunctions.java:1054)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$w$$Lambda$5809/0x0000000801ced9e0.visit(Unknown Source)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:287)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:287)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$e$$Lambda$5810/0x0000000801cedc00.apply(Unknown Source)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:720)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:287)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:287)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$e$$Lambda$5810/0x0000000801cedc00.apply(Unknown Source)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:720)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:287)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Spline.mapAll(DensityFunctions.java:1053)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:736)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:736)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:648)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.a(DensityFunctions.java:604)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$RangeChoice.mapAll(DensityFunctions.java:887)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$BlendDensity.mapAll(DensityFunctions.java:387)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:736)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:648)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.a(DensityFunctions.java:604)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseRouter.mapAll(NoiseRouter.java:17)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.<init>(NoiseChunk.java:122)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.iterateNoiseColumn(NoiseBasedChunkGenerator.java:171)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.getBaseHeight(NoiseBasedChunkGenerator.java:121)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getFirstOccupiedHeight(ChunkGenerator.java:714)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.onTopOfChunkCenter(Structure.java:100)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure.findGenerationPoint(BuriedTreasureStructure.java:20)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.findValidGenerationPoint(Structure.java:154)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.canCreateStructure(StructureCheck.java:185)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.lambda$checkStart$1(StructureCheck.java:177)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck$$Lambda$9242/0x0000000801d9d800.get(Unknown Source)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck$SynchronisedLong2BooleanMap.getOrCompute(StructureCheck.java:133)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.checkStart(StructureCheck.java:176)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.StructureManager.checkStructurePresence(StructureManager.java:167)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:302)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:272)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:201)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.findNearestMapStructure(ServerLevel.java:2040)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.run(ExplorationMapFunction.java:80)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction.apply(LootItemConditionalFunction.java:30)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.apply(ExplorationMapFunction.java:30)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions.lambda$compose$1(LootItemFunctions.java:60)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions$$Lambda$4499/0x000000080160e970.apply(Unknown Source)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction.decorate(LootItemFunction.java:13)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction$$Lambda$8111/0x000000080217cf38.accept(Unknown Source)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootItem.createItemStack(LootItem.java:32)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$1.createItemStack(LootPoolSingletonContainer.java:31)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItem(LootPool.java:78)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItems(LootPool.java:93)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItemsRaw(LootTable.java:100)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:119)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:134)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fillInventory(LootTable.java:163)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fill(LootTable.java:157)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.unpackLootTable(RandomizableContainerBlockEntity.java:85)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.createMenu(RandomizableContainerBlockEntity.java:165)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1559)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.ChestBlock.use(ChestBlock.java:269)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.use(BlockBehaviour.java:1177)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:582)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1960)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:37)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.a(ServerboundUseItemOnPacket.java:9)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:51)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda$7864/0x0000000802121c88.run(Unknown Source)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1339)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1316)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1309)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1287)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1175)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4638/0x0000000801644f20.run(Unknown Source)
+[23:41:35] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+[23:41:35] [Paper Watchdog Thread/ERROR]: ------------------------------
+[23:41:35] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[23:41:35] [Paper Watchdog Thread/ERROR]: ------------------------------
+[23:41:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11296ms or 225 ticks behind
+[23:41:36] [Server thread/WARN]: P0tatoDan moved too quickly! 4.038123896401487,0.5556704439576663,-9.283441932638311
+[23:51:12] [Async Chat Thread - #110/INFO]: <P0tatoDan> dude
+[23:51:18] [Async Chat Thread - #109/INFO]: <P0tatoDan> tudtud naku sana
+[23:51:24] [Async Chat Thread - #110/INFO]: <P0tatoDan> i github ke ining server
+[23:51:25] [Async Chat Thread - #110/INFO]: <eligaming28> ty
+[23:51:33] [Async Chat Thread - #110/INFO]: <P0tatoDan> ban makapamyalung ka pa
+[23:51:39] [Async Chat Thread - #109/INFO]: <P0tatoDan> maka setup ne
+[23:51:40] [Async Chat Thread - #109/INFO]: <eligaming28> oks lang
+[23:51:47] [Server thread/INFO]: eligaming28 lost connection: Disconnected
+[23:51:47] [Server thread/INFO]: eligaming28 left the game
+[23:51:51] [Server thread/INFO]: P0tatoDan lost connection: Disconnected
+[23:51:51] [Server thread/INFO]: P0tatoDan left the game
+[23:52:01] [Server thread/INFO]: Stopping server
+[23:52:01] [Server thread/INFO]: [AntiCreeper] Disabling AntiCreeper v2.6
+[23:52:01] [Server thread/INFO]: [AntiCreeper] Disabled!
+[23:52:01] [Server thread/INFO]: [Bosses] Disabling Bosses v1.0-SNAPSHOT
+[23:52:01] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.98
+[23:52:01] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[23:52:01] [Server thread/INFO]: [LuckPerms] Closing storage...
+[23:52:01] [Server thread/INFO]: [LuckPerms] Goodbye!
+[23:52:01] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.3.1
+[23:52:01] [Server thread/INFO]: [Quests] Disabling Quests v4.8.3-b423
+[23:52:01] [Server thread/INFO]: [Quests] Saving Quester data...
+[23:52:01] [Server thread/INFO]: [Quests] Closing storage...
+[23:52:01] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.12
+[23:52:01] [Server thread/INFO]: [Superheroes] Disabling Superheroes v3.13.0
+[23:52:01] [Server thread/INFO]: [VillagerTradeSettings] Disabling VillagerTradeSettings v1.0
+[23:52:01] [Server thread/INFO]: Saving players
+[23:52:01] [Server thread/INFO]: Saving worlds
+[23:52:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:52:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[23:52:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[23:52:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[23:52:01] [Server thread/INFO]: [ChunkHolderManager] Saved 86 block chunks, 59 entity chunks, 0 poi chunks in world 'world' in 0.05s
+[23:52:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:52:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[23:52:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[23:52:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[23:52:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[23:52:02] [Server thread/INFO]: [ChunkHolderManager] Saved 901 block chunks, 68 entity chunks, 0 poi chunks in world 'world_nether' in 0.21s
+[23:52:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:52:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[23:52:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[23:52:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[23:52:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[23:52:02] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[23:52:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:52:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23:52:02] [Server thread/INFO]: Flushing Chunk IO
+[23:52:02] [Server thread/INFO]: Closing Thread Pool
+[23:52:02] [Server thread/INFO]: Closing Server

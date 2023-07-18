@@ -1,0 +1,35 @@
+Robot:
+  colouredName: <bold><gray>The Robot
+  description: You're a robot
+  skills:
+    nohunger:
+      skill: NOHUNGER
+    damageres:
+      skill: POTIONEFFECT
+      type: DAMAGE_RESISTANCE
+    nightvision:
+      skill: POTIONEFFECT
+      type: NIGHT_VISION
+    noLightningDamage:
+      skill: DAMAGERESISTANCE
+      damageMultiplier: 0
+      damageCause:
+      - LIGHTNING
+    lightningSpeed:
+      skill: DAMAGEPOTION
+      type: SPEED
+      duration: 30
+      potency: 2
+      damageCause:
+      - LIGHTNING
+    lightningGlow:
+      skill: DAMAGEPOTION
+      type: GLOWING
+      duration: 30
+      potency: 1
+      damageCause:
+      - LIGHTNING
+    weatherDamage:
+      skill: WEATHERDAMAGE
+      damage: 2.0
+      checkShelter: true

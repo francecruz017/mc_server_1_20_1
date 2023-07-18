@@ -1,0 +1,344 @@
+Items:
+  # ID of the item (any ID)
+  random_id_1:
+    # The item that the plugin will search for in the trade and replace its price with yours
+    Target_Item:
+      Item:
+        Material: ENCHANTED_BOOK
+      # Enchantments that should be on the books
+      # List of all enchantments: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html
+      Enchants:
+        protection: 1 # Enchantment level. If not specified, the plugin will not work correctly!
+    # Trade configuration
+    Trade:
+      # The item for purchase that will be replaced with yours
+      Replace_Item:
+        Material: EMERALD
+      # Price of this trade
+      Price: 3
+      # Item for payment
+      Item:
+        Material: EMERALD_BLOCK
+  random_id_2:
+    Target_Item:
+      Item:
+        Material: ENCHANTED_BOOK
+      Enchants:
+        fire_protection: 1
+    Trade:
+      Replace_Item:
+        Material: EMERALD
+      Price: 3
+      Item:
+        Material: EMERALD_BLOCK
+  random_id_3:
+    Target_Item:
+      Item:
+        Material: ENCHANTED_BOOK
+      Enchants:
+        feather_falling: 1
+    Trade:
+      Replace_Item:
+        Material: EMERALD
+      Price: 3
+      Item:
+        Material: EMERALD_BLOCK
+  random_id_4:
+    Target_Item:
+      Item:
+        Material: ENCHANTED_BOOK
+      Enchants:
+        blast_protection: 1
+    Trade:
+      Replace_Item:
+        Material: EMERALD
+      Price: 3
+      Item:
+        Material: EMERALD_BLOCK
+  random_id_5:
+    Target_Item:
+      Item:
+        Material: ENCHANTED_BOOK
+      Enchants:
+        projectile_protection: 1
+    Trade:
+      Replace_Item:
+        Material: EMERALD
+      Price: 3
+      Item:
+        Material: EMERALD_BLOCK
+  random_id_6:
+    Target_Item:
+      Item:
+        Material: ENCHANTED_BOOK
+      Enchants:
+        respiration: 1
+    Trade:
+      Replace_Item:
+        Material: EMERALD
+      Price: 3
+      Item:
+        Material: EMERALD_BLOCK
+  random_id_7:
+    Target_Item:
+      Item:
+        Material: ENCHANTED_BOOK
+      Enchants:
+        aqua_affinity: 1
+    Trade:
+      Replace_Item:
+        Material: EMERALD
+      Price: 3
+      Item:
+        Material: EMERALD_BLOCK
+  random_id_8:
+    Target_Item:
+      Item:
+        Material: ENCHANTED_BOOK
+      Enchants:
+        thorns: 1
+    Trade:
+      Replace_Item:
+        Material: EMERALD
+      Price: 3
+      Item:
+        Material: EMERALD_BLOCK
+  random_id_9:
+    Target_Item:
+      Item:
+        Material: ENCHANTED_BOOK
+      Enchants:
+        depth_strider: 1
+    Trade:
+      Replace_Item:
+        Material: EMERALD
+      Price: 3
+      Item:
+        Material: EMERALD_BLOCK
+  random_id_10:
+    Target_Item:
+      Item:
+        Material: ENCHANTED_BOOK
+      Enchants:
+        frost_walker: 1
+    Trade:
+      Replace_Item:
+        Material: EMERALD
+      Price: 3
+      Item:
+        Material: EMERALD_BLOCK
+  11:
+    Target_Item:
+      Item:
+        Material: BOOKSHELF
+        Enchants: []
+      Price: 3
+    Trade:
+      Replace_Item:
+        Material: EMERALD
+      Item:
+        Material: EMERALD_BLOCK
+  12:
+    Target_Item:
+      Item:
+        Material: ENCHANTED_BOOK
+      Enchants:
+        lure: 1
+    Trade:
+      Replace_Item:
+        Material: EMERALD
+      Price: 3
+      Item:
+        Material: EMERALD_BLOCK
+  13:
+    Target_Item:
+      Item:
+        Material: ENCHANTED_BOOK
+      Enchants:
+        punch: 1
+    Trade:
+      Replace_Item:
+        Material: EMERALD
+      Price: 3
+      Item:
+        Material: EMERALD_BLOCK
+  14:
+    Target_Item:
+      Item:
+        Material: ENCHANTED_BOOK
+      Enchants:
+        silk_touch: 1
+    Trade:
+      Replace_Item:
+        Material: EMERALD
+      Price: 3
+      Item:
+        Material: EMERALD_BLOCK
+  15:
+    Target_Item:
+      Item:
+        Material: ENCHANTED_BOOK
+      Enchants:
+        riptide: 1
+    Trade:
+      Replace_Item:
+        Material: EMERALD
+      Price: 3
+      Item:
+        Material: EMERALD_BLOCK
+  16:
+    Target_Item:
+      Item:
+        Material: ENCHANTED_BOOK
+      Enchants:
+        depth_strider: 1
+    Trade:
+      Replace_Item:
+        Material: EMERALD
+      Price: 3
+      Item:
+        Material: EMERALD_BLOCK
+  17:
+    Target_Item:
+      Item:
+        Material: ENCHANTED_BOOK
+      Enchants:
+        binding_curse: 1
+    Trade:
+      Replace_Item:
+        Material: EMERALD
+      Price: 3
+      Item:
+        Material: EMERALD_BLOCK
+  18:
+    Target_Item:
+      Item:
+        Material: ENCHANTED_BOOK
+      Enchants:
+        sharpness: 1
+    Trade:
+      Replace_Item:
+        Material: EMERALD
+      Price: 3
+      Item:
+        Material: EMERALD_BLOCK
+  19:
+    Target_Item:
+      Item:
+        Material: ENCHANTED_BOOK
+      Enchants:
+        smite: 1
+    Trade:
+      Replace_Item:
+        Material: EMERALD
+      Price: 3
+      Item:
+        Material: EMERALD_BLOCK
+  20:
+    Target_Item:
+      Item:
+        Material: ENCHANTED_BOOK
+      Enchants:
+        bane_of_arthropods: 1
+    Trade:
+      Replace_Item:
+        Material: EMERALD
+      Price: 3
+      Item:
+        Material: EMERALD_BLOCK
+  21:
+    Target_Item:
+      Item:
+        Material: ENCHANTED_BOOK
+      Enchants:
+        knockback: 1
+    Trade:
+      Replace_Item:
+        Material: EMERALD
+      Price: 3
+      Item:
+        Material: EMERALD_BLOCK
+  22:
+    Target_Item:
+      Item:
+        Material: ENCHANTED_BOOK
+      Enchants:
+        looting: 1
+    Trade:
+      Replace_Item:
+        Material: EMERALD
+      Price: 3
+      Item:
+        Material: EMERALD_BLOCK
+  23:
+    Target_Item:
+      Item:
+        Material: ENCHANTED_BOOK
+      Enchants:
+        sweeping: 1
+    Trade:
+      Replace_Item:
+        Material: EMERALD
+      Price: 3
+      Item:
+        Material: EMERALD_BLOCK
+  24:
+    Target_Item:
+      Item:
+        Material: ENCHANTED_BOOK
+      Enchants:
+        efficiency: 1
+    Trade:
+      Replace_Item:
+        Material: EMERALD
+      Price: 3
+      Item:
+        Material: EMERALD_BLOCK
+  25:
+    Target_Item:
+      Item:
+        Material: ENCHANTED_BOOK
+      Enchants:
+        unbreaking: 1
+    Trade:
+      Replace_Item:
+        Material: EMERALD
+      Price: 3
+      Item:
+        Material: EMERALD_BLOCK
+  26:
+    Target_Item:
+      Item:
+        Material: ENCHANTED_BOOK
+      Enchants:
+        fortune: 1
+    Trade:
+      Replace_Item:
+        Material: EMERALD
+      Price: 3
+      Item:
+        Material: EMERALD_BLOCK
+  27:
+    Target_Item:
+      Item:
+        Material: ENCHANTED_BOOK
+      Enchants:
+        power: 1
+    Trade:
+      Replace_Item:
+        Material: EMERALD
+      Price: 3
+      Item:
+        Material: EMERALD_BLOCK
+  28:
+    Target_Item:
+      Item:
+        Material: ENCHANTED_BOOK
+      Enchants:
+        infinity: 1
+    Trade:
+      Replace_Item:
+        Material: EMERALD
+      Price: 3
+      Item:
+        Material: EMERALD_BLOCK
