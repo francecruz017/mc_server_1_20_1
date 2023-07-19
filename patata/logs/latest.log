@@ -1,234 +1,134 @@
-[18:25:24] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[18:25:25] [ServerMain/INFO]: Loaded 7 recipes
-[18:25:26] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[18:25:26] [Server thread/INFO]: Loading properties
-[18:25:26] [Server thread/INFO]: This server is running Paper version git-Paper-80 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: de3f149)
-[18:25:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:25:26] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:25:26] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[21:17:11] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:17:12] [ServerMain/INFO]: Loaded 7 recipes
+[21:17:13] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[21:17:13] [Server thread/INFO]: Loading properties
+[21:17:13] [Server thread/INFO]: This server is running Paper version git-Paper-80 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: de3f149)
+[21:17:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:17:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:17:13] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[18:25:26] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[18:25:26] [Server thread/INFO]: Default game type: SURVIVAL
-[18:25:26] [Server thread/INFO]: Generating keypair
-[18:25:26] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:25:26] [Server thread/INFO]: Using default channel type
-[18:25:26] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[18:25:26] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[18:25:27] [Server thread/INFO]: [VillagerTradeSettings] Loading server plugin VillagerTradeSettings v1.0
-[18:25:27] [Server thread/INFO]: [Superheroes] Loading server plugin Superheroes v3.13.0
-[18:25:27] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v14.2.12
-[18:25:27] [Server thread/INFO]: [Quests] Loading server plugin Quests v4.8.3-b423
-[18:25:27] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.3.1
-[18:25:27] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.98
-[18:25:27] [Server thread/INFO]: [Bosses] Loading server plugin Bosses v1.0-SNAPSHOT
-[18:25:27] [Server thread/INFO]: [AntiCreeper] Loading server plugin AntiCreeper v2.6
-[18:25:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:25:27] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.3.1
-[18:25:27] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.98
-[18:25:28] [Server thread/INFO]:         __    
-[18:25:28] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.98
-[18:25:28] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[18:25:28] [Server thread/INFO]: 
-[18:25:28] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[18:25:28] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[18:25:29] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[18:25:29] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[18:25:29] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1429ms)
-[18:25:29] [Server thread/INFO]: Preparing level "world"
-[18:25:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:25:29] [Server thread/INFO]: Time elapsed: 324 ms
-[18:25:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[18:25:29] [Server thread/INFO]: Time elapsed: 24 ms
-[18:25:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[18:25:29] [Server thread/INFO]: Time elapsed: 25 ms
-[18:25:29] [Server thread/INFO]: [VillagerTradeSettings] Enabling VillagerTradeSettings v1.0
-[18:25:29] [Server thread/INFO]: [VillagerTradeSettings] Plugin loaded in 10 ms!
-[18:25:29] [Server thread/INFO]: [Superheroes] Enabling Superheroes v3.13.0
-[18:25:30] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.12
-[18:25:30] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_20_R1, using MappingSpigotSkinRefresher.
-[18:25:30] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
-[18:25:30] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[18:25:30] [Server thread/INFO]: [Quests] Enabling Quests v4.8.3-b423
-[18:25:30] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[18:25:34] [Server thread/INFO]: [Quests] Loaded language en-US. Translations via Crowdin
-[18:25:34] [Server thread/INFO]: [Quests] Loading storage implementation: YAML
-[18:25:34] [Server thread/INFO]: [Bosses] Enabling Bosses v1.0-SNAPSHOT
-[18:25:34] [Server thread/INFO]: [AntiCreeper] Enabling AntiCreeper v2.6
-[18:25:34] [Server thread/INFO]: [AntiCreeper] Enabled!
-[18:25:34] [Server thread/WARN]: [Superheroes] You have entered an invalid potion effect type! Floral.skills.white_tulip.type . Defaulting to REGENERATION
-[18:25:34] [Server thread/INFO]: Running delayed init tasks
-[18:25:34] [Server thread/INFO]: [VillagerTradeSettings] Loaded 28 trade items!
-[18:25:34] [Server thread/INFO]: Done (8.177s)! For help, type "help"
-[18:25:34] [Server thread/INFO]: Timings Reset
-[18:25:34] [Server thread/INFO]: [Quests] Loaded 4 Quest(s), 7 Action(s), 1 Condition(s) and 811 Phrase(s)
-[18:25:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[18:25:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
-[18:25:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[18:25:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
-[18:25:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[18:25:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
-[18:25:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[18:25:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     Current version: 14.2.12
-[18:25:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
-[18:25:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[18:38:10] [User Authenticator #0/INFO]: UUID of player AaronkGamez421 is 797f93af-fb99-4391-851a-069388d0305f
-[18:38:10] [Server thread/INFO]: AaronkGamez421 joined the game
-[18:38:10] [Server thread/INFO]: AaronkGamez421[/[0:0:0:0:0:0:0:1]:56580] logged in with entity id 117 at ([world]-282.6564417111576, 88.0, -760.5086901310552)
-[18:55:00] [User Authenticator #1/INFO]: UUID of player P0tatoDan is c16cdaaf-82d7-44a7-874c-925c2b12ed4d
-[18:55:00] [Server thread/INFO]: P0tatoDan joined the game
-[18:55:00] [Server thread/INFO]: P0tatoDan[/127.0.0.1:56721] logged in with entity id 1714 at ([world]-282.1860209320214, 88.0, -768.2519573366942)
-[18:55:12] [Async Chat Thread - #2/INFO]: <P0tatoDan> hello
-[18:55:54] [Async Chat Thread - #1/INFO]: <AaronkGamez421> i am back
-[18:55:57] [Async Chat Thread - #2/INFO]: <P0tatoDan> hi
-[18:56:01] [Async Chat Thread - #2/INFO]: <P0tatoDan> i just joined
-[18:56:03] [Async Chat Thread - #1/INFO]: <AaronkGamez421> hello there
-[18:56:09] [Async Chat Thread - #2/INFO]: <P0tatoDan> we have a map
-[18:56:18] [Async Chat Thread - #2/INFO]: <P0tatoDan> the white flag is the mansion
-[18:56:44] [Async Chat Thread - #1/INFO]: <AaronkGamez421> ?
-[18:56:49] [Async Chat Thread - #2/INFO]: <P0tatoDan> u hit me
-[18:57:02] [Async Chat Thread - #1/INFO]: <AaronkGamez421> it wasn't an aggro hit
-[18:57:10] [Async Chat Thread - #2/INFO]: <P0tatoDan> i got hurt
-[18:57:16] [Async Chat Thread - #1/INFO]: <AaronkGamez421> dude
-[18:57:20] [Async Chat Thread - #2/INFO]: <AaronkGamez421> it is just one punch
-[18:57:22] [Async Chat Thread - #1/INFO]: <P0tatoDan> u must die
-[18:57:30] [Async Chat Thread - #2/INFO]: <AaronkGamez421> im not dying without a fight
-[18:57:35] [Server thread/INFO]: P0tatoDan issued server command: /kill AaronkGamez421
-[18:57:35] [Server thread/INFO]: AaronkGamez421 was killed
-[18:57:35] [Server thread/INFO]: [P0tatoDan: Killed AaronkGamez421]
-[18:57:37] [Async Chat Thread - #1/INFO]: <P0tatoDan> yes u are
-[18:57:40] [Async Chat Thread - #2/INFO]: <AaronkGamez421> ./kill
-[18:57:42] [Async Chat Thread - #2/INFO]: <AaronkGamez421> lol
-[18:57:48] [Async Chat Thread - #1/INFO]: <AaronkGamez421> bro had to do cmds
-[18:58:42] [Async Chat Thread - #1/INFO]: <P0tatoDan> i dont have food
-[18:59:46] [Async Chat Thread - #3/INFO]: <P0tatoDan> dude
-[18:59:51] [Async Chat Thread - #4/INFO]: <P0tatoDan> dito ang trash
-[19:00:08] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
-[19:00:19] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
-[19:00:23] [Server thread/INFO]: AaronkGamez421 was slain by P0tatoDan
-[19:00:25] [Async Chat Thread - #3/INFO]: <AaronkGamez421> dude
-[19:00:29] [Async Chat Thread - #4/INFO]: <AaronkGamez421> i was choosing my power
-[19:00:38] [Server thread/INFO]: P0tatoDan issued server command: /hero select Repulsion
-[19:00:41] [Async Chat Thread - #3/INFO]: <P0tatoDan> sorry
-[19:02:31] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
-[19:03:38] [Server thread/INFO]: AaronkGamez421 fell from a high place
-[19:04:42] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
-[19:04:53] [Async Chat Thread - #5/INFO]: <P0tatoDan> not mea
-[19:05:27] [Async Chat Thread - #6/INFO]: <P0tatoDan> that was no me duffus
-[19:05:28] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
-[19:05:34] [Async Chat Thread - #6/INFO]: <P0tatoDan> u got hit by a skel
-[19:05:38] [Async Chat Thread - #5/INFO]: <AaronkGamez421> yes it was you lol
-[19:05:41] [Async Chat Thread - #6/INFO]: <AaronkGamez421> powers
-[19:05:44] [Async Chat Thread - #5/INFO]: <P0tatoDan> no
-[19:05:47] [Async Chat Thread - #7/INFO]: <P0tatoDan> check ur feet
-[19:05:50] [Async Chat Thread - #5/INFO]: <P0tatoDan> u have an arrow
-[19:05:53] [Async Chat Thread - #7/INFO]: <AaronkGamez421> NA
-[19:05:55] [Async Chat Thread - #7/INFO]: <AaronkGamez421> nah
-[19:05:57] [Async Chat Thread - #5/INFO]: <AaronkGamez421> i have no arrow
-[19:06:04] [Async Chat Thread - #7/INFO]: <P0tatoDan> :/
-[19:06:11] [Async Chat Thread - #5/INFO]: <P0tatoDan> perma ban
-[19:06:16] [Async Chat Thread - #7/INFO]: <AaronkGamez421> Lmao
-[19:06:17] [Async Chat Thread - #5/INFO]: <P0tatoDan> my ult
-[19:06:29] [Async Chat Thread - #7/INFO]: <P0tatoDan> may traveling merchant
-[19:06:31] [Async Chat Thread - #5/INFO]: <P0tatoDan> walang lead
-[19:07:08] [Server thread/INFO]: P0tatoDan issued server command: /hero select Eraserhead
-[19:10:52] [Async Chat Thread - #8/INFO]: <AaronkGamez421> back
-[19:10:54] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
-[19:11:43] [Async Chat Thread - #9/INFO]: <AaronkGamez421> i can trap mobs with my aerosurfing ability
-[19:11:50] [Async Chat Thread - #8/INFO]: <P0tatoDan> nawawala yan
-[19:11:54] [Async Chat Thread - #9/INFO]: <AaronkGamez421> yes
-[19:11:56] [Async Chat Thread - #8/INFO]: <AaronkGamez421> temporary
-[19:12:00] [Async Chat Thread - #9/INFO]: <AaronkGamez421> ik
-[19:12:37] [Async Chat Thread - #8/INFO]: <P0tatoDan> HEY I GOT A CARROT
-[19:12:53] [Async Chat Thread - #9/INFO]: <P0tatoDan> NOICE !!!
-[19:13:16] [Server thread/INFO]: AaronkGamez421 has made the advancement [Ice Bucket Challenge]
-[19:13:21] [Async Chat Thread - #8/INFO]: <AaronkGamez421> why is obsidian in trash
-[19:13:35] [Async Chat Thread - #8/INFO]: <P0tatoDan> huh ?
-[19:13:38] [Async Chat Thread - #9/INFO]: <P0tatoDan> trash is here
-[19:13:40] [Async Chat Thread - #10/INFO]: <P0tatoDan> lava
-[19:13:50] [Async Chat Thread - #9/INFO]: <P0tatoDan> dito sa may library
-[19:15:27] [Server thread/INFO]: P0tatoDan issued server command: /hero select GravityGuy
-[19:17:43] [Async Chat Thread - #13/INFO]: <P0tatoDan> awww
-[19:17:58] [Async Chat Thread - #11/INFO]: <P0tatoDan> gimme the berry
-[19:18:23] [Async Chat Thread - #13/INFO]: <AaronkGamez421> why do creepers give dolphin's grace
-[19:18:30] [Async Chat Thread - #11/INFO]: <P0tatoDan> idk
-[19:18:34] [Async Chat Thread - #13/INFO]: <AaronkGamez421> they are one with the dolphins
-[19:21:15] [Async Chat Thread - #14/INFO]: <P0tatoDan> stop hitting me
-[19:21:18] [Async Chat Thread - #15/INFO]: <P0tatoDan> perma ban
-[19:21:29] [Async Chat Thread - #14/INFO]: <P0tatoDan> its not the creeper kin
-[19:21:36] [Async Chat Thread - #14/INFO]: <P0tatoDan> asa loob ako ng bahay
-[19:21:47] [Async Chat Thread - #15/INFO]: <P0tatoDan> nag dolphin power ka ba kanina ?
-[19:21:51] [Async Chat Thread - #14/INFO]: <P0tatoDan> may bug ata yun e
-[19:22:03] [Async Chat Thread - #15/INFO]: <AaronkGamez421> i joined and then
-[19:22:06] [Async Chat Thread - #14/INFO]: <AaronkGamez421> i got dolphins grace
-[19:22:11] [Async Chat Thread - #15/INFO]: <P0tatoDan> stopped trolling
-[19:22:14] [Async Chat Thread - #14/INFO]: <P0tatoDan> and griefing
-[19:22:20] [Async Chat Thread - #15/INFO]: <P0tatoDan> im serious
-[19:22:24] [Async Chat Thread - #14/INFO]: <AaronkGamez421> i am also serious
-[19:23:53] [Async Chat Thread - #16/INFO]: <AaronkGamez421> 7 ? ? 7 ? ? ? 7 ? ? ? ? ? ? !¡ ? ? ? ? ? ? 7 ? ? ? 7 ? ? ? ? ? ?
-[19:23:57] [Async Chat Thread - #16/INFO]: <AaronkGamez421> ? ? ? ? ? || ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? 7 ? ? ? ? ? ? || ? ? ? ? ? ? ? ? ? ? ? ? ? 7 ? ? ? 7 ? ? ?
-[19:24:01] [Async Chat Thread - #17/INFO]: <AaronkGamez421> ? !¡ ? ? ? ? 7 || 7 ? ? 7 ? ? ? 7 ? ? ? ? ? ?
-[19:24:32] [Async Chat Thread - #16/INFO]: <AaronkGamez421> aw
-[19:25:33] [Async Chat Thread - #19/INFO]: <P0tatoDan> sabihin mo kay dada sali sya :D
-[19:25:54] [Async Chat Thread - #18/INFO]: <AaronkGamez421> ? ? ? ? ? 7 ? ? ? ? ?
-[19:26:05] [Async Chat Thread - #19/INFO]: <P0tatoDan> why u typing gibberish
-[19:26:21] [Async Chat Thread - #18/INFO]: <AaronkGamez421> ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? !¡ ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? 7 ? ? ? ? ? 7 ? ? ? 7 ?
-[19:26:24] [Async Chat Thread - #18/INFO]: <P0tatoDan> nerd
-[19:26:29] [Async Chat Thread - #19/INFO]: <AaronkGamez421> ? 7 ?!
-[19:28:03] [Async Chat Thread - #21/INFO]: <P0tatoDan> tra mansion
-[19:28:19] [Async Chat Thread - #21/INFO]: <AaronkGamez421> ? ? ? ?, ? ? ? ? 7 ? ?
-[19:28:25] [Async Chat Thread - #20/INFO]: <P0tatoDan> tra
-[19:28:41] [Async Chat Thread - #21/INFO]: <AaronkGamez421> ? ? ? ? ? ? ? 7 7 ? ? ? ? ? ?
-[19:28:45] [Async Chat Thread - #20/INFO]: <P0tatoDan> ???
-[19:29:13] [Server thread/INFO]: P0tatoDan issued server command: /hero select Superhuman
-[19:30:06] [Async Chat Thread - #22/INFO]: <AaronkGamez421> waut
-[19:30:07] [Async Chat Thread - #23/INFO]: <AaronkGamez421> wait
-[19:30:29] [Async Chat Thread - #22/INFO]: <AaronkGamez421> ok
-[19:31:11] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
-[19:31:31] [Server thread/INFO]: P0tatoDan issued server command: /hero select GravityGuy
-[19:31:48] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
-[19:32:03] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
-[19:32:39] [Async Chat Thread - #25/INFO]: <P0tatoDan> sa baba entrance
-[19:32:51] [Async Chat Thread - #25/INFO]: <P0tatoDan> dont break
-[19:32:56] [Async Chat Thread - #24/INFO]: <AaronkGamez421> ? ? ? ? ? ? ? ? ? ? 7 ? ? ? ? ? 7 !¡
-[19:33:07] [Async Chat Thread - #25/INFO]: <AaronkGamez421> (ill enter from the top)
-[19:33:15] [Async Chat Thread - #24/INFO]: <P0tatoDan> nooo
-[19:33:30] [Server thread/INFO]: P0tatoDan issued server command: /hero select Superhuman
-[19:34:17] [Server thread/INFO]: AaronkGamez421 fell from a high place
-[19:34:20] [Async Chat Thread - #26/INFO]: <AaronkGamez421> ah
-[19:34:30] [Async Chat Thread - #27/INFO]: <AaronkGamez421> i thought there was no fall damage when aerosurfing
-[19:34:35] [Async Chat Thread - #27/INFO]: <AaronkGamez421> i'll join
-[19:34:37] [Async Chat Thread - #26/INFO]: <AaronkGamez421> coords
-[19:34:39] [Async Chat Thread - #27/INFO]: <P0tatoDan> use Gravity guy
-[19:34:42] [Async Chat Thread - #26/INFO]: <P0tatoDan> may map dyan
-[19:34:45] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
-[19:34:48] [Async Chat Thread - #27/INFO]: <P0tatoDan> ung white banner sa map un ang mansion
-[19:35:00] [Async Chat Thread - #26/INFO]: <P0tatoDan> dont take the map
-[19:35:02] [Async Chat Thread - #27/INFO]: <P0tatoDan> make a copy
-[19:35:11] [Async Chat Thread - #26/INFO]: <AaronkGamez421> ill just use memory
-[19:35:12] [Async Chat Thread - #27/INFO]: <P0tatoDan> may map empty map sa SHARED chest
-[19:35:25] [Async Chat Thread - #27/INFO]: <P0tatoDan> anu ginagawa ng alley
-[19:35:32] [Async Chat Thread - #26/INFO]: <AaronkGamez421> it just picks up items
-[19:35:36] [Async Chat Thread - #27/INFO]: <AaronkGamez421> oh yk what
-[19:35:39] [Async Chat Thread - #26/INFO]: <AaronkGamez421> mb ill take the mao
-[19:35:41] [Async Chat Thread - #27/INFO]: <AaronkGamez421> map
-[19:35:47] [Async Chat Thread - #26/INFO]: <P0tatoDan> dont take it -_-
-[19:35:51] [Async Chat Thread - #27/INFO]: <P0tatoDan> MAKE A COPY
-[19:35:57] [Async Chat Thread - #26/INFO]: <AaronkGamez421> k whatever you say
-[19:36:25] [Async Chat Thread - #27/INFO]: <P0tatoDan> imma take 1 alley home
-[19:36:28] [Async Chat Thread - #26/INFO]: <P0tatoDan> using lead
-[19:36:59] [Async Chat Thread - #27/INFO]: <P0tatoDan> kin sleep pls
-[19:37:11] [Async Chat Thread - #26/INFO]: <P0tatoDan> ty
-[19:37:48] [Server thread/INFO]: P0tatoDan issued server command: /hero select GravityGuy
-[19:38:32] [Server thread/INFO]: AaronkGamez421 has made the advancement [Best Friends Forever]
-[19:38:49] [Async Chat Thread - #28/INFO]: <AaronkGamez421> looks like ill be delayed
-[19:41:28] [Async Chat Thread - #30/INFO]: <P0tatoDan> dont break the place
-[19:41:55] [Async Chat Thread - #31/INFO]: <AaronkGamez421> i am in
-[19:42:08] [Server thread/INFO]: AaronkGamez421 issued server command: /hero gui
-[19:46:38] [Async Chat Thread - #32/INFO]: <P0tatoDan> afk muna ako kin
-[19:56:23] [Async Chat Thread - #34/INFO]: <AaronkGamez421> gtg
-[19:56:25] [Async Chat Thread - #34/INFO]: <AaronkGamez421> brb later
-[19:56:26] [Server thread/INFO]: AaronkGamez421 lost connection: Disconnected
-[19:56:26] [Server thread/INFO]: AaronkGamez421 left the game
-[20:13:16] [Server thread/INFO]: P0tatoDan lost connection: Disconnected
-[20:13:16] [Server thread/INFO]: P0tatoDan left the game
+[21:17:13] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[21:17:13] [Server thread/INFO]: Default game type: SURVIVAL
+[21:17:13] [Server thread/INFO]: Generating keypair
+[21:17:13] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:17:13] [Server thread/INFO]: Using default channel type
+[21:17:13] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[21:17:13] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[21:17:14] [Server thread/INFO]: [VillagerTradeSettings] Loading server plugin VillagerTradeSettings v1.0
+[21:17:14] [Server thread/INFO]: [Superheroes] Loading server plugin Superheroes v3.13.0
+[21:17:14] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v14.2.12
+[21:17:14] [Server thread/INFO]: [Quests] Loading server plugin Quests v4.8.3-b423
+[21:17:14] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.3.1
+[21:17:14] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.98
+[21:17:14] [Server thread/INFO]: [Bosses] Loading server plugin Bosses v1.0-SNAPSHOT
+[21:17:14] [Server thread/INFO]: [AntiCreeper] Loading server plugin AntiCreeper v2.6
+[21:17:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:17:14] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.3.1
+[21:17:14] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.98
+[21:17:15] [Server thread/INFO]:         __    
+[21:17:15] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.98
+[21:17:15] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[21:17:15] [Server thread/INFO]: 
+[21:17:15] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[21:17:15] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[21:17:16] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[21:17:16] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[21:17:16] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1285ms)
+[21:17:16] [Server thread/INFO]: Preparing level "world"
+[21:17:16] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:17:16] [Server thread/INFO]: Time elapsed: 152 ms
+[21:17:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:17:16] [Server thread/INFO]: Time elapsed: 22 ms
+[21:17:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:17:16] [Server thread/INFO]: Time elapsed: 22 ms
+[21:17:16] [Server thread/INFO]: [VillagerTradeSettings] Enabling VillagerTradeSettings v1.0
+[21:17:16] [Server thread/INFO]: [VillagerTradeSettings] Plugin loaded in 10 ms!
+[21:17:16] [Server thread/INFO]: [Superheroes] Enabling Superheroes v3.13.0
+[21:17:17] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.12
+[21:17:17] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_20_R1, using MappingSpigotSkinRefresher.
+[21:17:17] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[21:17:17] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[21:17:17] [Server thread/INFO]: [Quests] Enabling Quests v4.8.3-b423
+[21:17:17] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[21:17:21] [Server thread/INFO]: [Quests] Loaded language en-US. Translations via Crowdin
+[21:17:21] [Server thread/INFO]: [Quests] Loading storage implementation: YAML
+[21:17:21] [Server thread/INFO]: [Bosses] Enabling Bosses v1.0-SNAPSHOT
+[21:17:21] [Server thread/INFO]: [AntiCreeper] Enabling AntiCreeper v2.6
+[21:17:21] [Server thread/INFO]: [AntiCreeper] Enabled!
+[21:17:21] [Server thread/WARN]: [Superheroes] You have entered an invalid potion effect type! Floral.skills.white_tulip.type . Defaulting to REGENERATION
+[21:17:21] [Server thread/INFO]: Running delayed init tasks
+[21:17:21] [Server thread/INFO]: [VillagerTradeSettings] Loaded 28 trade items!
+[21:17:21] [Server thread/INFO]: Done (8.803s)! For help, type "help"
+[21:17:21] [Server thread/INFO]: Timings Reset
+[21:17:22] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:17:22] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[21:17:22] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[21:17:22] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
+[21:17:22] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[21:17:22] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[21:17:22] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:17:22] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     Current version: 14.2.12
+[21:17:22] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
+[21:17:22] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:17:22] [Server thread/INFO]: [Quests] Loaded 4 Quest(s), 7 Action(s), 1 Condition(s) and 811 Phrase(s)
+[21:24:09] [User Authenticator #0/INFO]: UUID of player P0tatoDan is c16cdaaf-82d7-44a7-874c-925c2b12ed4d
+[21:24:09] [Server thread/INFO]: P0tatoDan joined the game
+[21:24:09] [Server thread/INFO]: P0tatoDan[/127.0.0.1:57390] logged in with entity id 118 at ([world]-280.5496966913164, 88.0, -762.5716590014713)
+[21:29:42] [Server thread/INFO]: P0tatoDan issued server command: /gamemode creative
+[21:29:42] [Server thread/INFO]: [P0tatoDan: Set own game mode to Creative Mode]
+[21:48:06] [Server thread/INFO]: P0tatoDan issued server command: /kill P0tatoDan
+[21:48:06] [Server thread/INFO]: P0tatoDan was killed
+[21:48:06] [Server thread/INFO]: [P0tatoDan: Killed P0tatoDan]
+[21:58:16] [Server thread/INFO]: P0tatoDan issued server command: /fill -288 92 -742 -277 88 -752 minecraft:air
+[21:58:16] [Server thread/INFO]: [P0tatoDan: Successfully filled 460 block(s)]
+[21:58:35] [Server thread/INFO]: P0tatoDan issued server command: /give P0tatoDan minecraft:dirt 460
+[21:58:35] [Server thread/INFO]: [P0tatoDan: Gave 460 [Dirt] to P0tatoDan]
+[22:42:08] [Server thread/INFO]: Villager EntityVillager['Weaponsmith'/4491, uuid='364ccf78-b0a0-4954-9529-2fcd6378e17a', l='ServerLevel[world]', x=-194.70, y=96.00, z=-825.06, cpos=[-13, -52], tl=57099, v=true] died, message: 'Weaponsmith was slain by Zombie'
+[22:47:37] [Server thread/INFO]: P0tatoDan issued server command: /fill -339 110 -759 -342 110 -751 minecraft:air
+[22:47:37] [Server thread/INFO]: [P0tatoDan: Successfully filled 36 block(s)]
+[22:48:08] [Server thread/INFO]: P0tatoDan issued server command: /fill -344 110 -759 -342 110 -752 minecraft:air
+[22:48:08] [Server thread/INFO]: [P0tatoDan: Successfully filled 24 block(s)]
+[22:51:13] [Server thread/INFO]: P0tatoDan issued server command: /gamemode survival
+[22:51:13] [Server thread/INFO]: [P0tatoDan: Set own game mode to Survival Mode]
+[22:52:01] [Server thread/INFO]: P0tatoDan lost connection: Disconnected
+[22:52:01] [Server thread/INFO]: P0tatoDan left the game
+[22:52:04] [Server thread/INFO]: Stopping server
+[22:52:04] [Server thread/INFO]: [AntiCreeper] Disabling AntiCreeper v2.6
+[22:52:04] [Server thread/INFO]: [AntiCreeper] Disabled!
+[22:52:04] [Server thread/INFO]: [Bosses] Disabling Bosses v1.0-SNAPSHOT
+[22:52:04] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.98
+[22:52:04] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[22:52:04] [Server thread/INFO]: [LuckPerms] Closing storage...
+[22:52:04] [Server thread/INFO]: [LuckPerms] Goodbye!
+[22:52:04] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.3.1
+[22:52:04] [Server thread/INFO]: [Quests] Disabling Quests v4.8.3-b423
+[22:52:04] [Server thread/INFO]: [Quests] Saving Quester data...
+[22:52:04] [Server thread/INFO]: [Quests] Closing storage...
+[22:52:04] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.12
+[22:52:04] [Server thread/INFO]: [Superheroes] Disabling Superheroes v3.13.0
+[22:52:04] [Server thread/INFO]: [VillagerTradeSettings] Disabling VillagerTradeSettings v1.0
+[22:52:04] [Server thread/INFO]: Saving players
+[22:52:05] [Server thread/INFO]: Saving worlds
+[22:52:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:52:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[22:52:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[22:52:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[22:52:05] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 23 entity chunks, 0 poi chunks in world 'world' in 0.01s
+[22:52:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:52:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:52:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[22:52:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[22:52:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[22:52:05] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 54 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[22:52:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:52:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:52:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[22:52:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[22:52:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[22:52:05] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[22:52:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:52:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:52:05] [Server thread/INFO]: Flushing Chunk IO
+[22:52:05] [Server thread/INFO]: Closing Thread Pool
+[22:52:05] [Server thread/INFO]: Closing Server
