@@ -210,6 +210,7 @@
     "criteria": {
       "minecraft:skeleton": "2023-07-14 21:31:41 +0800",
       "minecraft:spider": "2023-07-14 21:31:30 +0800",
+      "minecraft:creeper": "2023-07-20 21:01:44 +0800",
       "minecraft:enderman": "2023-07-14 21:17:43 +0800",
       "minecraft:zombie": "2023-07-18 18:54:30 +0800",
       "minecraft:drowned": "2023-07-18 18:51:21 +0800"
