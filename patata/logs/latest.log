@@ -1,49 +1,118 @@
-[00:06:20] [Server thread/INFO]: P0tatoDan drowned
-[00:10:30] [Server thread/INFO]: P0tatoDan lost connection: Disconnected
-[00:10:30] [Server thread/INFO]: P0tatoDan left the game
-[00:10:40] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[00:10:44] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[00:10:52] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[00:10:55] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[00:11:43] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[00:13:56] [Server thread/INFO]: Stopping server
-[00:13:56] [Server thread/INFO]: [AntiCreeper] Disabling AntiCreeper v2.6
-[00:13:56] [Server thread/INFO]: [AntiCreeper] Disabled!
-[00:13:56] [Server thread/INFO]: [Bosses] Disabling Bosses v1.0-SNAPSHOT
-[00:13:56] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.98
-[00:13:56] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[00:13:56] [Server thread/INFO]: [LuckPerms] Closing storage...
-[00:13:56] [Server thread/INFO]: [LuckPerms] Goodbye!
-[00:13:56] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.3.1
-[00:13:56] [Server thread/INFO]: [Quests] Disabling Quests v4.8.3-b423
-[00:13:56] [Server thread/INFO]: [Quests] Saving Quester data...
-[00:13:56] [Server thread/INFO]: [Quests] Closing storage...
-[00:13:56] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.12
-[00:13:56] [Server thread/INFO]: [Superheroes] Disabling Superheroes v3.13.0
-[00:13:56] [Server thread/INFO]: [VillagerTradeSettings] Disabling VillagerTradeSettings v1.0
-[00:13:56] [Server thread/INFO]: Saving players
-[00:13:56] [Server thread/INFO]: eligaming28 lost connection: Server closed
-[00:13:56] [Server thread/INFO]: eligaming28 left the game
-[00:13:56] [Server thread/INFO]: Saving worlds
-[00:13:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:13:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[00:13:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[00:13:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[00:13:56] [Server thread/INFO]: [ChunkHolderManager] Saved 8 block chunks, 319 entity chunks, 0 poi chunks in world 'world' in 0.06s
-[00:13:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:13:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[00:13:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[00:13:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[00:13:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[00:13:57] [Server thread/INFO]: [ChunkHolderManager] Saved 842 block chunks, 73 entity chunks, 0 poi chunks in world 'world_nether' in 0.23s
-[00:13:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:13:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[00:13:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[00:13:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[00:13:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[00:13:57] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[00:13:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:13:57] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[00:13:57] [Server thread/INFO]: Flushing Chunk IO
-[00:13:57] [Server thread/INFO]: Closing Thread Pool
-[00:13:57] [Server thread/INFO]: Closing Server
+[20:15:02] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:15:04] [ServerMain/INFO]: Loaded 7 recipes
+[20:15:04] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[20:15:04] [Server thread/INFO]: Loading properties
+[20:15:04] [Server thread/INFO]: This server is running Paper version git-Paper-80 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: de3f149)
+[20:15:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:15:04] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:15:04] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[20:15:04] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[20:15:05] [Server thread/INFO]: Default game type: SURVIVAL
+[20:15:05] [Server thread/INFO]: Generating keypair
+[20:15:05] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:15:05] [Server thread/INFO]: Using default channel type
+[20:15:05] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[20:15:05] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[20:15:05] [Server thread/INFO]: [VillagerTradeSettings] Loading server plugin VillagerTradeSettings v1.0
+[20:15:05] [Server thread/INFO]: [Superheroes] Loading server plugin Superheroes v3.13.0
+[20:15:05] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v14.2.12
+[20:15:05] [Server thread/INFO]: [Quests] Loading server plugin Quests v4.8.3-b423
+[20:15:05] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.3.1
+[20:15:05] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.98
+[20:15:06] [Server thread/INFO]: [Bosses] Loading server plugin Bosses v1.0-SNAPSHOT
+[20:15:06] [Server thread/INFO]: [AntiCreeper] Loading server plugin AntiCreeper v2.6
+[20:15:06] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:15:06] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.3.1
+[20:15:06] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.98
+[20:15:06] [Server thread/INFO]:         __    
+[20:15:06] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.98
+[20:15:06] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[20:15:06] [Server thread/INFO]: 
+[20:15:06] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[20:15:07] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:15:07] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[20:15:07] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[20:15:07] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1442ms)
+[20:15:07] [Server thread/INFO]: Preparing level "world"
+[20:15:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:15:08] [Server thread/INFO]: Time elapsed: 163 ms
+[20:15:08] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:15:08] [Server thread/INFO]: Time elapsed: 21 ms
+[20:15:08] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:15:08] [Server thread/INFO]: Time elapsed: 31 ms
+[20:15:08] [Server thread/INFO]: [VillagerTradeSettings] Enabling VillagerTradeSettings v1.0
+[20:15:08] [Server thread/INFO]: [VillagerTradeSettings] Plugin loaded in 92 ms!
+[20:15:08] [Server thread/INFO]: [Superheroes] Enabling Superheroes v3.13.0
+[20:15:09] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.12
+[20:15:09] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_20_R1, using MappingSpigotSkinRefresher.
+[20:15:09] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[20:15:09] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[20:15:09] [Server thread/INFO]: [Quests] Enabling Quests v4.8.3-b423
+[20:15:09] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[20:15:13] [Server thread/INFO]: [Quests] Loaded language en-US. Translations via Crowdin
+[20:15:13] [Server thread/INFO]: [Quests] Loading storage implementation: YAML
+[20:15:13] [Server thread/INFO]: [Bosses] Enabling Bosses v1.0-SNAPSHOT
+[20:15:13] [Server thread/INFO]: [AntiCreeper] Enabling AntiCreeper v2.6
+[20:15:13] [Server thread/INFO]: [AntiCreeper] Enabled!
+[20:15:13] [Server thread/WARN]: [Superheroes] You have entered an invalid potion effect type! Floral.skills.white_tulip.type . Defaulting to REGENERATION
+[20:15:13] [Server thread/INFO]: Running delayed init tasks
+[20:15:13] [Server thread/INFO]: [VillagerTradeSettings] Loaded 28 trade items!
+[20:15:13] [Server thread/INFO]: Done (9.166s)! For help, type "help"
+[20:15:13] [Server thread/INFO]: Timings Reset
+[20:15:13] [Craft Scheduler Thread - 0 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:15:13] [Craft Scheduler Thread - 0 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[20:15:13] [Craft Scheduler Thread - 0 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[20:15:13] [Craft Scheduler Thread - 0 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
+[20:15:13] [Craft Scheduler Thread - 0 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[20:15:13] [Craft Scheduler Thread - 0 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[20:15:13] [Craft Scheduler Thread - 0 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:15:13] [Craft Scheduler Thread - 0 - SkinsRestorer/INFO]: [SkinsRestorer]     Current version: 14.2.12
+[20:15:13] [Craft Scheduler Thread - 0 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
+[20:15:13] [Craft Scheduler Thread - 0 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:15:14] [Server thread/INFO]: [Quests] Loaded 4 Quest(s), 7 Action(s), 1 Condition(s) and 811 Phrase(s)
+[20:19:19] [User Authenticator #0/INFO]: UUID of player AaronkGamez421 is 797f93af-fb99-4391-851a-069388d0305f
+[20:19:19] [Server thread/INFO]: AaronkGamez421 joined the game
+[20:19:19] [Server thread/INFO]: AaronkGamez421[/[0:0:0:0:0:0:0:1]:59766] logged in with entity id 116 at ([world]-299.3205035816435, 107.04327964513062, -716.4163924507161)
+[20:46:00] [Server thread/INFO]: AaronkGamez421 lost connection: Disconnected
+[20:46:01] [Server thread/INFO]: AaronkGamez421 left the game
+[21:17:53] [Server thread/INFO]: Stopping server
+[21:17:53] [Server thread/INFO]: [AntiCreeper] Disabling AntiCreeper v2.6
+[21:17:53] [Server thread/INFO]: [AntiCreeper] Disabled!
+[21:17:53] [Server thread/INFO]: [Bosses] Disabling Bosses v1.0-SNAPSHOT
+[21:17:53] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.98
+[21:17:53] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[21:17:53] [Server thread/INFO]: [LuckPerms] Closing storage...
+[21:17:53] [Server thread/INFO]: [LuckPerms] Goodbye!
+[21:17:53] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.3.1
+[21:17:53] [Server thread/INFO]: [Quests] Disabling Quests v4.8.3-b423
+[21:17:53] [Server thread/INFO]: [Quests] Saving Quester data...
+[21:17:53] [Server thread/INFO]: [Quests] Closing storage...
+[21:17:53] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.12
+[21:17:53] [Server thread/INFO]: [Superheroes] Disabling Superheroes v3.13.0
+[21:17:53] [Server thread/INFO]: [VillagerTradeSettings] Disabling VillagerTradeSettings v1.0
+[21:17:53] [Server thread/INFO]: Saving players
+[21:17:53] [Server thread/INFO]: Saving worlds
+[21:17:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:17:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[21:17:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[21:17:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[21:17:53] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 28 entity chunks, 0 poi chunks in world 'world' in 0.01s
+[21:17:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:17:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:17:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[21:17:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[21:17:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[21:17:53] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 60 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[21:17:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:17:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[21:17:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[21:17:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[21:17:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[21:17:54] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[21:17:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:17:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:17:54] [Server thread/INFO]: Flushing Chunk IO
+[21:17:54] [Server thread/INFO]: Closing Thread Pool
+[21:17:54] [Server thread/INFO]: Closing Server
